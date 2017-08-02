@@ -1,3 +1,3 @@
 # ONEEZY CSS
 
-My css.
+My CSS.
