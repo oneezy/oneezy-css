@@ -1,0 +1,146 @@
+/* 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    TYPOGRAPHY (Desktop)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 1025px) {
+
+    /* All Text
+    ----------------------------------*/
+        .desktop-display-1,
+        .desktop-display-2,
+        .desktop-display-3,
+        .desktop-display-4,
+        .desktop-headline,
+        .desktop-title,
+        .desktop-subhead,
+        .desktop-bold,
+        .desktop-normal,
+        .desktop-caption,
+        .desktop-menu,
+        .desktop-button,
+        .desktop-text-12,
+        .desktop-text-13,
+        .desktop-text-14,
+        .desktop-text-15,
+        .desktop-text-16,
+        .desktop-text-20,
+        .desktop-text-24,
+        .desktop-text-34,
+        .desktop-text-45,
+        .desktop-text-56,
+        .desktop-text-72,
+        .desktop-text-112      { font-family: 'Roboto', 'Noto', sans-serif !important; -webkit-font-smoothing: antialiased !important; }  /* OS X subpixel AA bleed bug */
+
+        .desktop-code1,
+        .desktop-code2         { font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace !important; -webkit-font-smoothing: antialiased !important; }  /* OS X subpixel AA bleed bug */
+
+        .desktop-display-1,
+        .desktop-display-2,
+        .desktop-display-3,
+        .desktop-display-4,
+        .desktop-headline,
+        .desktop-title,
+        .desktop-subhead,
+        .desktop-bold,
+        .desktop-normal,
+        .desktop-caption,
+        .desktop-menu,
+        .desktop-button,
+        .desktop-code1,
+        .desktop-code2,
+        .desktop-text-12,
+        .desktop-text-13,
+        .desktop-text-14,
+        .desktop-text-15,
+        .desktop-text-16,
+        .desktop-text-20,
+        .desktop-text-24,
+        .desktop-text-34,
+        .desktop-text-45,
+        .desktop-text-56,
+        .desktop-text-72,
+        .desktop-text-112        { text-rendering: optimizeLegibility !important; } /* Opt for better kerning for headers & other short labels. */
+
+        .desktop-display-1,
+        .desktop-display-2,
+        .desktop-display-3,
+        .desktop-display-4,
+        .desktop-title,
+        .desktop-caption,
+        .desktop-menu,
+        .desktop-button        { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; } /* Line wrapping only applies to Body, Subhead, Headline, and the smaller Display styles. All other styles should exist as single lines. */
+
+
+
+        /* Text Styles
+        ------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        .desktop-display-1    { font-size:  34px !important;   font-weight: 400 !important;   letter-spacing: -.01em !important;    line-height: 40px !important;  }
+        .desktop-display-2    { font-size:  45px !important;   font-weight: 400 !important;   letter-spacing: -.018em !important;   line-height: 48px !important;  }
+        .desktop-display-3    { font-size:  56px !important;   font-weight: 400 !important;   letter-spacing: -.026em !important;   line-height: 60px !important;  }
+        .desktop-display-4    { font-size: 112px !important;   font-weight: 100 !important;   letter-spacing: -.044em !important;   line-height: 120px !important; }
+
+        .desktop-headline     { font-size:  24px !important;   font-weight: 400 !important;   letter-spacing: -.012em !important;   line-height: 32px !important; }
+        .desktop-title        { font-size:  20px !important;   font-weight: 500 !important;   line-height: 28px !important; }
+        .desktop-subhead      { font-size:  16px !important;   font-weight: 400 !important;   line-height: 24px !important; }
+        .desktop-bold         { font-size:  14px !important;   font-weight: 500 !important;   line-height: 24px !important; }
+        .desktop-normal       { font-size:  14px !important;   font-weight: 400 !important;   line-height: 20px !important; }
+        .desktop-caption      { font-size:  12px !important;   font-weight: 400 !important;   letter-spacing: 0.011em !important;   line-height: 20px !important; }
+
+        .desktop-menu         { font-size:  13px !important;   font-weight: 500 !important;   line-height: 24px !important; }
+        .desktop-button       { font-size:  14px !important;   font-weight: 500 !important;   letter-spacing: 0.018em !important;   line-height: 24px !important;  text-transform: uppercase !important; }
+        .desktop-code1        { font-size:  14px !important;   font-weight: 500 !important;   line-height: 20px !important; }
+        .desktop-code2        { font-size:  14px !important;   font-weight: 700 !important;   line-height: 20px !important; }
+
+
+
+        /* Font Size (number)
+        -------------------------------------------------------*/
+        .desktop-text-12           {  font-size:  12px !important;  }
+        .desktop-text-13           {  font-size:  13px !important;  }
+        .desktop-text-14           {  font-size:  14px !important;  }
+        .desktop-text-15           {  font-size:  15px !important;  }
+        .desktop-text-16           {  font-size:  16px !important;  }
+        .desktop-text-20           {  font-size:  20px !important;  }
+        .desktop-text-24           {  font-size:  24px !important;  }
+        .desktop-text-34           {  font-size:  34px !important;  }
+        .desktop-text-45           {  font-size:  45px !important;  }
+        .desktop-text-56           {  font-size:  56px !important;  }
+        .desktop-text-72           {  font-size:  72px !important;  }
+        .desktop-text-112          {  font-size:  112px !important; }
+
+
+        /* Font Weight (number)                                              Font Weight (name)
+        -------------------------------------------------------             -------------------------------------------------------*/
+        .desktop-weight-1          {  font-weight: 100 !important;  }                          .desktop-text-thin         {  font-weight: 100 !important;  }
+        .desktop-weight-2          {  font-weight: 300 !important;  }                          .desktop-text-light        {  font-weight: 300 !important;  }
+        .desktop-weight-3          {  font-weight: 400 !important;  }                          .desktop-text-regular      {  font-weight: 400 !important;  }
+        .desktop-weight-4          {  font-weight: 500 !important;  }                          .desktop-text-medium       {  font-weight: 500 !important;  }
+        .desktop-weight-5          {  font-weight: 700 !important;  }                          .desktop-text-bold         {  font-weight: 700 !important;  }
+        .desktop-weight-6          {  font-weight: 900 !important;  }                          .desktop-text-black        {  font-weight: 900 !important;  }
+
+
+        /* Font Case
+        -------------------------------------------------------*/
+        .desktop-lowercase         {  text-transform: lowercase !important;  }
+        .desktop-uppercase         {  text-transform: uppercase !important;  }
+        .desktop-capitalize        {  text-transform: capitalize !important; }
+        .desktop-inherit           {  text-transform: inherit !important;    }
+
+
+        /* Font Styles
+        -------------------------------------------------------*/
+        .desktop-underline         {  text-decoration: underline !important; }
+        .desktop-overline          {  text-decoration: overline !important;  }
+
+    
+        /* Alignment
+        -------------------------------------------------------*/
+        .desktop-text-left         {  text-align: left !important;     }
+        .desktop-text-right        {  text-align: right !important;    }
+        .desktop-text-center       {  text-align: center !important;   }
+        .desktop-text-justify      {  text-align: justify !important;  }
+        .desktop-text-inherit      {  text-align: inherit !important;  }
+}
+
+

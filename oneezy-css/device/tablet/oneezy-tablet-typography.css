@@ -1,0 +1,146 @@
+/* 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    TYPOGRAPHY (Tablet)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+/* All Text
+----------------------------------*/
+    .tablet-display-1,
+    .tablet-display-2,
+    .tablet-display-3,
+    .tablet-display-4,
+    .tablet-headline,
+    .tablet-title,
+    .tablet-subhead,
+    .tablet-bold,
+    .tablet-normal,
+    .tablet-caption,
+    .tablet-menu,
+    .tablet-button,
+    .tablet-text-12,
+    .tablet-text-13,
+    .tablet-text-14,
+    .tablet-text-15,
+    .tablet-text-16,
+    .tablet-text-20,
+    .tablet-text-24,
+    .tablet-text-34,
+    .tablet-text-45,
+    .tablet-text-56,
+    .tablet-text-72,
+    .tablet-text-112      { font-family: 'Roboto', 'Noto', sans-serif !important; -webkit-font-smoothing: antialiased !important; }  /* OS X subpixel AA bleed bug */
+
+    .tablet-code1,
+    .tablet-code2         { font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace !important; -webkit-font-smoothing: antialiased !important; }  /* OS X subpixel AA bleed bug */
+
+    .tablet-display-1,
+    .tablet-display-2,
+    .tablet-display-3,
+    .tablet-display-4,
+    .tablet-headline,
+    .tablet-title,
+    .tablet-subhead,
+    .tablet-bold,
+    .tablet-normal,
+    .tablet-caption,
+    .tablet-menu,
+    .tablet-button,
+    .tablet-code1,
+    .tablet-code2,
+    .tablet-text-12,
+    .tablet-text-13,
+    .tablet-text-14,
+    .tablet-text-15,
+    .tablet-text-16,
+    .tablet-text-20,
+    .tablet-text-24,
+    .tablet-text-34,
+    .tablet-text-45,
+    .tablet-text-56,
+    .tablet-text-72,
+    .tablet-text-112        { text-rendering: optimizeLegibility !important; } /* Opt for better kerning for headers & other short labels. */
+
+    .tablet-display-1,
+    .tablet-display-2,
+    .tablet-display-3,
+    .tablet-display-4,
+    .tablet-title,
+    .tablet-caption,
+    .tablet-menu,
+    .tablet-button        { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; } /* Line wrapping only applies to Body, Subhead, Headline, and the smaller Display styles. All other styles should exist as single lines. */
+
+
+
+    /* Text Styles
+    ------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .tablet-display-1    { font-size:  34px !important;   font-weight: 400 !important;   letter-spacing: -.01em !important;    line-height: 40px !important;  }
+    .tablet-display-2    { font-size:  45px !important;   font-weight: 400 !important;   letter-spacing: -.018em !important;   line-height: 48px !important;  }
+    .tablet-display-3    { font-size:  56px !important;   font-weight: 400 !important;   letter-spacing: -.026em !important;   line-height: 60px !important;  }
+    .tablet-display-4    { font-size: 112px !important;   font-weight: 100 !important;   letter-spacing: -.044em !important;   line-height: 120px !important; }
+
+    .tablet-headline     { font-size:  24px !important;   font-weight: 400 !important;   letter-spacing: -.012em !important;   line-height: 32px !important; }
+    .tablet-title        { font-size:  20px !important;   font-weight: 500 !important;   line-height: 28px !important; }
+    .tablet-subhead      { font-size:  16px !important;   font-weight: 400 !important;   line-height: 24px !important; }
+    .tablet-bold         { font-size:  14px !important;   font-weight: 500 !important;   line-height: 24px !important; }
+    .tablet-normal       { font-size:  14px !important;   font-weight: 400 !important;   line-height: 20px !important; }
+    .tablet-caption      { font-size:  12px !important;   font-weight: 400 !important;   letter-spacing: 0.011em !important;   line-height: 20px !important; }
+
+    .tablet-menu         { font-size:  13px !important;   font-weight: 500 !important;   line-height: 24px !important; }
+    .tablet-button       { font-size:  14px !important;   font-weight: 500 !important;   letter-spacing: 0.018em !important;   line-height: 24px !important;  text-transform: uppercase !important; }
+    .tablet-code1        { font-size:  14px !important;   font-weight: 500 !important;   line-height: 20px !important; }
+    .tablet-code2        { font-size:  14px !important;   font-weight: 700 !important;   line-height: 20px !important; }
+
+
+
+    /* Font Size (number)
+    -------------------------------------------------------*/
+    .tablet-text-12           {  font-size:  12px !important;  }
+    .tablet-text-13           {  font-size:  13px !important;  }
+    .tablet-text-14           {  font-size:  14px !important;  }
+    .tablet-text-15           {  font-size:  15px !important;  }
+    .tablet-text-16           {  font-size:  16px !important;  }
+    .tablet-text-20           {  font-size:  20px !important;  }
+    .tablet-text-24           {  font-size:  24px !important;  }
+    .tablet-text-34           {  font-size:  34px !important;  }
+    .tablet-text-45           {  font-size:  45px !important;  }
+    .tablet-text-56           {  font-size:  56px !important;  }
+    .tablet-text-72           {  font-size:  72px !important;  }
+    .tablet-text-112          {  font-size:  112px !important; }
+
+
+    /* Font Weight (number)                                              Font Weight (name)
+    -------------------------------------------------------             -------------------------------------------------------*/
+    .tablet-weight-1          {  font-weight: 100 !important;  }                          .tablet-text-thin         {  font-weight: 100 !important;  }
+    .tablet-weight-2          {  font-weight: 300 !important;  }                          .tablet-text-light        {  font-weight: 300 !important;  }
+    .tablet-weight-3          {  font-weight: 400 !important;  }                          .tablet-text-regular      {  font-weight: 400 !important;  }
+    .tablet-weight-4          {  font-weight: 500 !important;  }                          .tablet-text-medium       {  font-weight: 500 !important;  }
+    .tablet-weight-5          {  font-weight: 700 !important;  }                          .tablet-text-bold         {  font-weight: 700 !important;  }
+    .tablet-weight-6          {  font-weight: 900 !important;  }                          .tablet-text-black        {  font-weight: 900 !important;  }
+
+
+    /* Font Case
+    -------------------------------------------------------*/
+    .tablet-lowercase         {  text-transform: lowercase !important;  }
+    .tablet-uppercase         {  text-transform: uppercase !important;  }
+    .tablet-capitalize        {  text-transform: capitalize !important; }
+    .tablet-inherit           {  text-transform: inherit !important;    }
+
+
+    /* Font Styles
+    -------------------------------------------------------*/
+    .tablet-underline         {  text-decoration: underline !important; }
+    .tablet-overline          {  text-decoration: overline !important;  }
+
+
+    /* Alignment
+    -------------------------------------------------------*/
+    .tablet-text-left         {  text-align: left !important;     }
+    .tablet-text-right        {  text-align: right !important;    }
+    .tablet-text-center       {  text-align: center !important;   }
+    .tablet-text-justify      {  text-align: justify !important;  }
+    .tablet-text-inherit      {  text-align: inherit !important;  }
+}
+
+

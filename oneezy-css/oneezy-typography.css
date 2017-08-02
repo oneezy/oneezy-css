@@ -1,0 +1,144 @@
+/* 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    TYPOGRAPHY (Universal)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+
+/* All Text
+----------------------------------*/
+    .display-1,
+    .display-2,
+    .display-3,
+    .display-4,
+    .headline,
+    .title,
+    .subhead,
+    .bold,
+    .normal,
+    .caption,
+    .menu,
+    .button,
+    .text-12,
+    .text-13,
+    .text-14,
+    .text-15,
+    .text-16,
+    .text-20,
+    .text-24,
+    .text-34,
+    .text-45,
+    .text-56,
+    .text-72,
+    .text-112      { font-family: 'Roboto', 'Noto', sans-serif; -webkit-font-smoothing: antialiased; }  /* OS X subpixel AA bleed bug */
+
+    .code1,
+    .code2         { font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace; -webkit-font-smoothing: antialiased; }  /* OS X subpixel AA bleed bug */
+
+    .display-1,
+    .display-2,
+    .display-3,
+    .display-4,
+    .headline,
+    .title,
+    .subhead,
+    .bold,
+    .normal,
+    .caption,
+    .menu,
+    .button,
+    .code1,
+    .code2,
+    .text-12,
+    .text-13,
+    .text-14,
+    .text-15,
+    .text-16,
+    .text-20,
+    .text-24,
+    .text-34,
+    .text-45,
+    .text-56,
+    .text-72,
+    .text-112        { text-rendering: optimizeLegibility; } /* Opt for better kerning for headers & other short labels. */
+
+    .display-1,
+    .display-2,
+    .display-3,
+    .display-4,
+    .title,
+    .caption,
+    .menu,
+    .button        { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } /* Line wrapping only applies to Body, Subhead, Headline, and the smaller Display styles. All other styles should exist as single lines. */
+
+
+
+    /* Text Styles
+    ------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .display-1    { font-size:  34px;   font-weight: 400;   letter-spacing: -.01em;    line-height: 40px;  }
+    .display-2    { font-size:  45px;   font-weight: 400;   letter-spacing: -.018em;   line-height: 48px;  }
+    .display-3    { font-size:  56px;   font-weight: 400;   letter-spacing: -.026em;   line-height: 60px;  }
+    .display-4    { font-size: 112px;   font-weight: 100;   letter-spacing: -.044em;   line-height: 120px; }
+
+    .headline     { font-size:  24px;   font-weight: 400;   letter-spacing: -.012em;   line-height: 32px; }
+    .title        { font-size:  20px;   font-weight: 500;   line-height: 28px; }
+    .subhead      { font-size:  16px;   font-weight: 400;   line-height: 24px; }
+    .bold         { font-size:  14px;   font-weight: 500;   line-height: 24px; }
+    .normal       { font-size:  14px;   font-weight: 400;   line-height: 20px; }
+    .caption      { font-size:  12px;   font-weight: 400;   letter-spacing: 0.011em;   line-height: 20px; }
+
+    .menu         { font-size:  13px;   font-weight: 500;   line-height: 24px; }
+    .button       { font-size:  14px;   font-weight: 500;   letter-spacing: 0.018em;   line-height: 24px;  text-transform: uppercase; }
+    .code1        { font-size:  14px;   font-weight: 500;   line-height: 20px; }
+    .code2        { font-size:  14px;   font-weight: 700;   line-height: 20px; }
+
+
+
+    /* Font Size (number)
+    -------------------------------------------------------*/
+    .text-12           {  font-size:  12px;  }
+    .text-13           {  font-size:  13px;  }
+    .text-14           {  font-size:  14px;  }
+    .text-15           {  font-size:  15px;  }
+    .text-16           {  font-size:  16px;  }
+    .text-20           {  font-size:  20px;  }
+    .text-24           {  font-size:  24px;  }
+    .text-34           {  font-size:  34px;  }
+    .text-45           {  font-size:  45px;  }
+    .text-56           {  font-size:  56px;  }
+    .text-72           {  font-size:  72px;  }
+    .text-112          {  font-size:  112px; }
+
+
+    /* Font Weight (number)                                              Font Weight (name)
+    -------------------------------------------------------             -------------------------------------------------------*/
+    .weight-1          {  font-weight: 100;  }                          .text-thin         {  font-weight: 100;  }
+    .weight-2          {  font-weight: 300;  }                          .text-light        {  font-weight: 300;  }
+    .weight-3          {  font-weight: 400;  }                          .text-regular      {  font-weight: 400;  }
+    .weight-4          {  font-weight: 500;  }                          .text-medium       {  font-weight: 500;  }
+    .weight-5          {  font-weight: 700;  }                          .text-bold         {  font-weight: 700;  }
+    .weight-6          {  font-weight: 900;  }                          .text-black        {  font-weight: 900;  }
+
+
+    /* Font Case
+    -------------------------------------------------------*/
+    .lowercase         {  text-transform: lowercase;  }
+    .uppercase         {  text-transform: uppercase;  }
+    .capitalize        {  text-transform: capitalize; }
+    .inherit           {  text-transform: inherit;    }
+
+
+    /* Font Styles
+    -------------------------------------------------------*/
+    .underline         {  text-decoration: underline; }
+    .overline          {  text-decoration: overline;  }
+
+
+    /* Alignment
+    -------------------------------------------------------*/
+    .text-left         {  text-align: left;     }
+    .text-right        {  text-align: right;    }
+    .text-center       {  text-align: center;   }
+    .text-justify      {  text-align: justify;  }
+    .text-inherit      {  text-align: inherit;  }
+    

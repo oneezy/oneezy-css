@@ -1,0 +1,619 @@
+/* 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    SETTINGS (Desktop)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 1025px) {
+
+    .desktop-none             { display: none !important; }
+    .desktop-inline           { display: inline !important; }
+    .desktop-inline-block     { display: inline-block !important; }
+    .desktop-block            { display: block !important; }
+
+
+/*
+    Height
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+    /* Height Names
+    --------------------------------------------------- */
+    .desktop-height-quarter       {  height: 25vh !important;    }
+    .desktop-height-third         {  height: 33.33vh !important; }
+    .desktop-height-half          {  height: 50vh !important;    }
+    .desktop-height-sixth         {  height: 66.66vh !important; }
+    .desktop-height-threequarter  {  height: 75vh !important;    }
+    .desktop-height-full          {  height: 100vh !important;   }
+    .desktop-height-fullquarter   {  height: 125vh !important;   }
+    .desktop-height-fullhalf      {  height: 150vh !important;   }
+    .desktop-height-double        {  height: 200vh !important;   }
+
+
+
+    /* Height View                                                Height View (Minimum)                                            Height View (Maximum)
+    ----------------------------------------------------         ------------------------------------------------------           ----------------------------------------------------  */
+    .desktop-height-10           {  height: 10vh !important;    }                   .desktop-min-height-10    {  min-height: 10vh !important;    }                       .desktop-max-height-10    {  max-height: 10vh !important;    }
+    .desktop-height-20           {  height: 20vh !important;    }                   .desktop-min-height-20    {  min-height: 20vh !important;    }                       .desktop-max-height-20    {  max-height: 20vh !important;    }
+    .desktop-height-25           {  height: 25vh !important;    }                   .desktop-min-height-25    {  min-height: 25vh !important;    }                       .desktop-max-height-25    {  max-height: 25vh !important;    }
+    .desktop-height-30           {  height: 30vh !important;    }                   .desktop-min-height-30    {  min-height: 30vh !important;    }                       .desktop-max-height-30    {  max-height: 30vh !important;    }
+    .desktop-height-33           {  height: 33.33vh !important; }                   .desktop-min-height-33    {  min-height: 33.33vh !important; }                       .desktop-max-height-33    {  max-height: 33.33vh !important; }
+    .desktop-height-40           {  height: 40vh !important;    }                   .desktop-min-height-40    {  min-height: 40vh !important;    }                       .desktop-max-height-40    {  max-height: 40vh !important;    }
+    .desktop-height-50           {  height: 50vh !important;    }                   .desktop-min-height-50    {  min-height: 50vh !important;    }                       .desktop-max-height-50    {  max-height: 50vh !important;    }
+    .desktop-height-60           {  height: 60vh !important;    }                   .desktop-min-height-60    {  min-height: 60vh !important;    }                       .desktop-max-height-60    {  max-height: 60vh !important;    }
+    .desktop-height-66           {  height: 66.66vh !important; }                   .desktop-min-height-66    {  min-height: 66.66vh !important; }                       .desktop-max-height-66    {  max-height: 66.66vh !important; }
+    .desktop-height-70           {  height: 70vh !important;    }                   .desktop-min-height-70    {  min-height: 70vh !important;    }                       .desktop-max-height-70    {  max-height: 70vh !important;    }
+    .desktop-height-75           {  height: 75vh !important;    }                   .desktop-min-height-75    {  min-height: 75vh !important;    }                       .desktop-max-height-75    {  max-height: 75vh !important;    }
+    .desktop-height-80           {  height: 80vh !important;    }                   .desktop-min-height-80    {  min-height: 80vh !important;    }                       .desktop-max-height-80    {  max-height: 80vh !important;    }
+    .desktop-height-90           {  height: 90vh !important;    }                   .desktop-min-height-90    {  min-height: 90vh !important;    }                       .desktop-max-height-90    {  max-height: 90vh !important;    }
+    .desktop-height-100          {  height: 100vh !important;   }                   .desktop-min-height-100   {  min-height: 100vh !important;   }                       .desktop-max-height-100   {  max-height: 100vh !important;   }
+    .desktop-height-125          {  height: 125vh !important;   }                   .desktop-min-height-125   {  min-height: 125vh !important;   }                       .desktop-max-height-125   {  max-height: 125vh !important;   }
+    .desktop-height-150          {  height: 150vh !important;   }                   .desktop-min-height-150   {  min-height: 150vh !important;   }                       .desktop-max-height-150   {  max-height: 150vh !important;   }
+    .desktop-height-200          {  height: 200vh !important;   }                   .desktop-min-height-200   {  min-height: 200vh !important;   }                       .desktop-max-height-200   {  max-height: 200vh !important;   }
+
+
+
+    /* Height Percentage                                          Height Percentage (Minimum)                                      Height Percentage (Maximum)
+    ----------------------------------------------------         ------------------------------------------------------           ----------------------------------------------------  */
+    .desktop-height-10p            {  height: 10% !important;    }                  .desktop-min-height-10p     {  min-height: 10% !important;    }                      .desktop-max-height-10p     {  max-height: 10% !important;    }
+    .desktop-height-20p            {  height: 20% !important;    }                  .desktop-min-height-20p     {  min-height: 20% !important;    }                      .desktop-max-height-20p     {  max-height: 20% !important;    }
+    .desktop-height-25p            {  height: 25% !important;    }                  .desktop-min-height-25p     {  min-height: 25% !important;    }                      .desktop-max-height-25p     {  max-height: 25% !important;    }
+    .desktop-height-30p            {  height: 30% !important;    }                  .desktop-min-height-30p     {  min-height: 30% !important;    }                      .desktop-max-height-30p     {  max-height: 30% !important;    }
+    .desktop-height-33p            {  height: 33.33% !important; }                  .desktop-min-height-33p     {  min-height: 33.33% !important; }                      .desktop-max-height-33p     {  max-height: 33.33% !important; }
+    .desktop-height-40p            {  height: 40% !important;    }                  .desktop-min-height-40p     {  min-height: 40% !important;    }                      .desktop-max-height-40p     {  max-height: 40% !important;    }
+    .desktop-height-50p            {  height: 50% !important;    }                  .desktop-min-height-50p     {  min-height: 50% !important;    }                      .desktop-max-height-50p     {  max-height: 50% !important;    }
+    .desktop-height-60p            {  height: 60% !important;    }                  .desktop-min-height-60p     {  min-height: 60% !important;    }                      .desktop-max-height-60p     {  max-height: 60% !important;    }
+    .desktop-height-66p            {  height: 66.66% !important; }                  .desktop-min-height-66p     {  min-height: 66.66% !important; }                      .desktop-max-height-66p     {  max-height: 66.66% !important; }
+    .desktop-height-70p            {  height: 70% !important;    }                  .desktop-min-height-70p     {  min-height: 70% !important;    }                      .desktop-max-height-70p     {  max-height: 70% !important;    }
+    .desktop-height-75p            {  height: 75% !important;    }                  .desktop-min-height-75p     {  min-height: 75% !important;    }                      .desktop-max-height-75p     {  max-height: 75% !important;    }
+    .desktop-height-80p            {  height: 80% !important;    }                  .desktop-min-height-80p     {  min-height: 80% !important;    }                      .desktop-max-height-80p     {  max-height: 80% !important;    }
+    .desktop-height-90p            {  height: 90% !important;    }                  .desktop-min-height-90p     {  min-height: 90% !important;    }                      .desktop-max-height-90p     {  max-height: 90% !important;    }
+    .desktop-height-100p           {  height: 100% !important;   }                  .desktop-min-height-100p    {  min-height: 100% !important;   }                      .desktop-max-height-100p    {  max-height: 100% !important;   }
+    .desktop-height-125p           {  height: 125% !important;   }                  .desktop-min-height-125p    {  min-height: 125% !important;   }                      .desktop-max-height-125p    {  max-height: 125% !important;   }
+    .desktop-height-150p           {  height: 150% !important;   }                  .desktop-min-height-150p    {  min-height: 150% !important;   }                      .desktop-max-height-150p    {  max-height: 150% !important;   }
+    .desktop-height-200p           {  height: 200% !important;   }                  .desktop-min-height-200p    {  min-height: 200% !important;   }                      .desktop-max-height-200p    {  max-height: 200% !important;   }
+
+
+
+    /* Height Pixels                                              Height Pixels (Minimum)                                          Height Pixels (Maximum)
+    ----------------------------------------------------         ------------------------------------------------------           ----------------------------------------------------  */
+    .desktop-height-10px          {  height: 10px !important;   }                   .desktop-min-height-10px   {  min-height: 10px !important;   }                      .desktop-max-height-10px   {  max-height: 10px !important;   }
+    .desktop-height-20px          {  height: 20px !important;   }                   .desktop-min-height-20px   {  min-height: 20px !important;   }                      .desktop-max-height-20px   {  max-height: 20px !important;   }
+    .desktop-height-25px          {  height: 25px !important;   }                   .desktop-min-height-25px   {  min-height: 25px !important;   }                      .desktop-max-height-25px   {  max-height: 25px !important;   }
+    .desktop-height-30px          {  height: 30px !important;   }                   .desktop-min-height-30px   {  min-height: 30px !important;   }                      .desktop-max-height-30px   {  max-height: 30px !important;   }
+    .desktop-height-40px          {  height: 40px !important;   }                   .desktop-min-height-40px   {  min-height: 40px !important;   }                      .desktop-max-height-40px   {  max-height: 40px !important;   }
+    .desktop-height-50px          {  height: 50px !important;   }                   .desktop-min-height-50px   {  min-height: 50px !important;   }                      .desktop-max-height-50px   {  max-height: 50px !important;   }
+    .desktop-height-60px          {  height: 60px !important;   }                   .desktop-min-height-60px   {  min-height: 60px !important;   }                      .desktop-max-height-60px   {  max-height: 60px !important;   }
+    .desktop-height-70px          {  height: 70px !important;   }                   .desktop-min-height-70px   {  min-height: 70px !important;   }                      .desktop-max-height-70px   {  max-height: 70px !important;   }
+    .desktop-height-75px          {  height: 75px !important;   }                   .desktop-min-height-75px   {  min-height: 75px !important;   }                      .desktop-max-height-75px   {  max-height: 75px !important;   }
+    .desktop-height-80px          {  height: 80px !important;   }                   .desktop-min-height-80px   {  min-height: 80px !important;   }                      .desktop-max-height-80px   {  max-height: 80px !important;   }
+    .desktop-height-90px          {  height: 90px !important;   }                   .desktop-min-height-90px   {  min-height: 90px !important;   }                      .desktop-max-height-90px   {  max-height: 90px !important;   }
+    .desktop-height-100px         {  height: 100px !important;  }                   .desktop-min-height-100px  {  min-height: 100px !important;  }                      .desktop-max-height-100px  {  max-height: 100px !important;  }
+    .desktop-height-125px         {  height: 125px !important;  }                   .desktop-min-height-125px  {  min-height: 125px !important;  }                      .desktop-max-height-125px  {  max-height: 125px !important;  }
+    .desktop-height-150px         {  height: 150px !important;  }                   .desktop-min-height-150px  {  min-height: 150px !important;  }                      .desktop-max-height-150px  {  max-height: 150px !important;  }
+    .desktop-height-200px         {  height: 200px !important;  }                   .desktop-min-height-200px  {  min-height: 200px !important;  }                      .desktop-max-height-200px  {  max-height: 200px !important;  }
+    .desktop-height-250px         {  height: 250px !important;  }                   .desktop-min-height-250px  {  min-height: 250px !important;  }                      .desktop-max-height-250px  {  max-height: 250px !important;  }
+    .desktop-height-300px         {  height: 300px !important;  }                   .desktop-min-height-300px  {  min-height: 300px !important;  }                      .desktop-max-height-300px  {  max-height: 300px !important;  }
+    .desktop-height-300px         {  height: 350px !important;  }                   .desktop-min-height-350px  {  min-height: 350px !important;  }                      .desktop-max-height-350px  {  max-height: 350px !important;  }
+    .desktop-height-400px         {  height: 400px !important;  }                   .desktop-min-height-400px  {  min-height: 400px !important;  }                      .desktop-max-height-400px  {  max-height: 400px !important;  }
+    .desktop-height-500px         {  height: 500px !important;  }                   .desktop-min-height-500px  {  min-height: 500px !important;  }                      .desktop-max-height-500px  {  max-height: 500px !important;  }
+    .desktop-height-600px         {  height: 600px !important;  }                   .desktop-min-height-600px  {  min-height: 600px !important;  }                      .desktop-max-height-600px  {  max-height: 600px !important;  }
+    .desktop-height-700px         {  height: 700px !important;  }                   .desktop-min-height-700px  {  min-height: 700px !important;  }                      .desktop-max-height-700px  {  max-height: 700px !important;  }
+    .desktop-height-800px         {  height: 800px !important;  }                   .desktop-min-height-800px  {  min-height: 800px !important;  }                      .desktop-max-height-800px  {  max-height: 800px !important;  }
+    .desktop-height-900px         {  height: 900px !important;  }                   .desktop-min-height-900px  {  min-height: 900px !important;  }                      .desktop-max-height-900px  {  max-height: 900px !important;  }
+
+
+
+
+
+/*
+    Width
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+    /* Width Names
+    --------------------------------------------------- */
+    .desktop-width-quarter       {  width: 25vw !important;    }
+    .desktop-width-third         {  width: 33.33vw !important; }
+    .desktop-width-half          {  width: 50vw !important;    }
+    .desktop-width-sixth         {  width: 66.66vw !important; }
+    .desktop-width-threequarter  {  width: 75vw !important;    }
+    .desktop-width-full          {  width: 100vw !important;   }
+    .desktop-width-fullquarter   {  width: 125vw !important;   }
+    .desktop-width-fullhalf      {  width: 150vw !important;   }
+    .desktop-width-double        {  width: 200vw !important;   }
+
+
+
+    /* Width View                                                Width View (Minimum)                                             Width View (Maximum)
+    ----------------------------------------------------         ------------------------------------------------------           ----------------------------------------------------  */
+    .desktop-width-10           {  width: 10vw !important;    }                     .desktop-min-width-10    {  min-width: 10vw !important;    }                        .desktop-max-width-10    {  max-width: 10vw !important;    }
+    .desktop-width-20           {  width: 20vw !important;    }                     .desktop-min-width-20    {  min-width: 20vw !important;    }                        .desktop-max-width-20    {  max-width: 20vw !important;    }
+    .desktop-width-25           {  width: 25vw !important;    }                     .desktop-min-width-25    {  min-width: 25vw !important;    }                        .desktop-max-width-25    {  max-width: 25vw !important;    }
+    .desktop-width-30           {  width: 30vw !important;    }                     .desktop-min-width-30    {  min-width: 30vw !important;    }                        .desktop-max-width-30    {  max-width: 30vw !important;    }
+    .desktop-width-33           {  width: 33.33vw !important; }                     .desktop-min-width-33    {  min-width: 33.33vw !important; }                        .desktop-max-width-33    {  max-width: 33.33vw !important; }
+    .desktop-width-40           {  width: 40vw !important;    }                     .desktop-min-width-40    {  min-width: 40vw !important;    }                        .desktop-max-width-40    {  max-width: 40vw !important;    }
+    .desktop-width-50           {  width: 50vw !important;    }                     .desktop-min-width-50    {  min-width: 50vw !important;    }                        .desktop-max-width-50    {  max-width: 50vw !important;    }
+    .desktop-width-60           {  width: 60vw !important;    }                     .desktop-min-width-60    {  min-width: 60vw !important;    }                        .desktop-max-width-60    {  max-width: 60vw !important;    }
+    .desktop-width-66           {  width: 66.66vw !important; }                     .desktop-min-width-66    {  min-width: 66.66vw !important; }                        .desktop-max-width-66    {  max-width: 66.66vw !important; }
+    .desktop-width-70           {  width: 70vw !important;    }                     .desktop-min-width-70    {  min-width: 70vw !important;    }                        .desktop-max-width-70    {  max-width: 70vw !important;    }
+    .desktop-width-75           {  width: 75vw !important;    }                     .desktop-min-width-75    {  min-width: 75vw !important;    }                        .desktop-max-width-75    {  max-width: 75vw !important;    }
+    .desktop-width-80           {  width: 80vw !important;    }                     .desktop-min-width-80    {  min-width: 80vw !important;    }                        .desktop-max-width-80    {  max-width: 80vw !important;    }
+    .desktop-width-90           {  width: 90vw !important;    }                     .desktop-min-width-90    {  min-width: 90vw !important;    }                        .desktop-max-width-90    {  max-width: 90vw !important;    }
+    .desktop-width-100          {  width: 100vw !important;   }                     .desktop-min-width-100   {  min-width: 100vw !important;   }                        .desktop-max-width-100   {  max-width: 100vw !important;   }
+    .desktop-width-125          {  width: 125vw !important;   }                     .desktop-min-width-125   {  min-width: 125vw !important;   }                        .desktop-max-width-125   {  max-width: 125vw !important;   }
+    .desktop-width-150          {  width: 150vw !important;   }                     .desktop-min-width-150   {  min-width: 150vw !important;   }                        .desktop-max-width-150   {  max-width: 150vw !important;   }
+    .desktop-width-200          {  width: 200vw !important;   }                     .desktop-min-width-200   {  min-width: 200vw !important;   }                        .desktop-max-width-200   {  max-width: 200vw !important;   }
+
+
+
+    /* Width Percentage                                          Width Percentage (Minimum)                                       Width Percentage (Maximum)
+    ----------------------------------------------------         ------------------------------------------------------           ----------------------------------------------------  */
+    .desktop-width-10p            {  width: 10% !important;    }                    .desktop-min-width-10p     {  min-width: 10% !important;    }                       .desktop-max-width-10p     {  max-width: 10% !important;    }
+    .desktop-width-20p            {  width: 20% !important;    }                    .desktop-min-width-20p     {  min-width: 20% !important;    }                       .desktop-max-width-20p     {  max-width: 20% !important;    }
+    .desktop-width-25p            {  width: 25% !important;    }                    .desktop-min-width-25p     {  min-width: 25% !important;    }                       .desktop-max-width-25p     {  max-width: 25% !important;    }
+    .desktop-width-30p            {  width: 30% !important;    }                    .desktop-min-width-30p     {  min-width: 30% !important;    }                       .desktop-max-width-30p     {  max-width: 30% !important;    }
+    .desktop-width-33p            {  width: 33.33% !important; }                    .desktop-min-width-33p     {  min-width: 33.33% !important; }                       .desktop-max-width-33p     {  max-width: 33.33% !important; }
+    .desktop-width-40p            {  width: 40% !important;    }                    .desktop-min-width-40p     {  min-width: 40% !important;    }                       .desktop-max-width-40p     {  max-width: 40% !important;    }
+    .desktop-width-50p            {  width: 50% !important;    }                    .desktop-min-width-50p     {  min-width: 50% !important;    }                       .desktop-max-width-50p     {  max-width: 50% !important;    }
+    .desktop-width-60p            {  width: 60% !important;    }                    .desktop-min-width-60p     {  min-width: 60% !important;    }                       .desktop-max-width-60p     {  max-width: 60% !important;    }
+    .desktop-width-66p            {  width: 66.66% !important; }                    .desktop-min-width-66p     {  min-width: 66.66% !important; }                       .desktop-max-width-66p     {  max-width: 66.66% !important; }
+    .desktop-width-70p            {  width: 70% !important;    }                    .desktop-min-width-70p     {  min-width: 70% !important;    }                       .desktop-max-width-70p     {  max-width: 70% !important;    }
+    .desktop-width-75p            {  width: 75% !important;    }                    .desktop-min-width-75p     {  min-width: 75% !important;    }                       .desktop-max-width-75p     {  max-width: 75% !important;    }
+    .desktop-width-80p            {  width: 80% !important;    }                    .desktop-min-width-80p     {  min-width: 80% !important;    }                       .desktop-max-width-80p     {  max-width: 80% !important;    }
+    .desktop-width-90p            {  width: 90% !important;    }                    .desktop-min-width-90p     {  min-width: 90% !important;    }                       .desktop-max-width-90p     {  max-width: 90% !important;    }
+    .desktop-width-100p           {  width: 100% !important;   }                    .desktop-min-width-100p    {  min-width: 100% !important;   }                       .desktop-max-width-100p    {  max-width: 100% !important;   }
+    .desktop-width-125p           {  width: 125% !important;   }                    .desktop-min-width-125p    {  min-width: 125% !important;   }                       .desktop-max-width-125p    {  max-width: 125% !important;   }
+    .desktop-width-150p           {  width: 150% !important;   }                    .desktop-min-width-150p    {  min-width: 150% !important;   }                       .desktop-max-width-150p    {  max-width: 150% !important;   }
+    .desktop-width-200p           {  width: 200% !important;   }                    .desktop-min-width-200p    {  min-width: 200% !important;   }                       .desktop-max-width-200p    {  max-width: 200% !important;   }
+
+
+
+    /* Width Pixels                                              Width Pixels (Minimum)                                           Width Pixels (Maximum)
+    ----------------------------------------------------         ------------------------------------------------------           ----------------------------------------------------  */
+    .desktop-width-10px          {  width: 10px !important;   }                     .desktop-min-width-10px   {  min-width: 10px !important;   }                        .desktop-max-width-10px   {  max-width: 10px !important;   }
+    .desktop-width-20px          {  width: 20px !important;   }                     .desktop-min-width-20px   {  min-width: 20px !important;   }                        .desktop-max-width-20px   {  max-width: 20px !important;   }
+    .desktop-width-25px          {  width: 25px !important;   }                     .desktop-min-width-25px   {  min-width: 25px !important;   }                        .desktop-max-width-25px   {  max-width: 25px !important;   }
+    .desktop-width-30px          {  width: 30px !important;   }                     .desktop-min-width-30px   {  min-width: 30px !important;   }                        .desktop-max-width-30px   {  max-width: 30px !important;   }
+    .desktop-width-40px          {  width: 40px !important;   }                     .desktop-min-width-40px   {  min-width: 40px !important;   }                        .desktop-max-width-40px   {  max-width: 40px !important;   }
+    .desktop-width-50px          {  width: 50px !important;   }                     .desktop-min-width-50px   {  min-width: 50px !important;   }                        .desktop-max-width-50px   {  max-width: 50px !important;   }
+    .desktop-width-60px          {  width: 60px !important;   }                     .desktop-min-width-60px   {  min-width: 60px !important;   }                        .desktop-max-width-60px   {  max-width: 60px !important;   }
+    .desktop-width-70px          {  width: 70px !important;   }                     .desktop-min-width-70px   {  min-width: 70px !important;   }                        .desktop-max-width-70px   {  max-width: 70px !important;   }
+    .desktop-width-75px          {  width: 75px !important;   }                     .desktop-min-width-75px   {  min-width: 75px !important;   }                        .desktop-max-width-75px   {  max-width: 75px !important;   }
+    .desktop-width-80px          {  width: 80px !important;   }                     .desktop-min-width-80px   {  min-width: 80px !important;   }                        .desktop-max-width-80px   {  max-width: 80px !important;   }
+    .desktop-width-90px          {  width: 90px !important;   }                     .desktop-min-width-90px   {  min-width: 90px !important;   }                        .desktop-max-width-90px   {  max-width: 90px !important;   }
+    .desktop-width-100px         {  width: 100px !important;  }                     .desktop-min-width-100px  {  min-width: 100px !important;  }                        .desktop-max-width-100px  {  max-width: 100px !important;  }
+    .desktop-width-125px         {  width: 125px !important;  }                     .desktop-min-width-125px  {  min-width: 125px !important;  }                        .desktop-max-width-125px  {  max-width: 125px !important;  }
+    .desktop-width-150px         {  width: 150px !important;  }                     .desktop-min-width-150px  {  min-width: 150px !important;  }                        .desktop-max-width-150px  {  max-width: 150px !important;  }
+    .desktop-width-200px         {  width: 200px !important;  }                     .desktop-min-width-200px  {  min-width: 200px !important;  }                        .desktop-max-width-200px  {  max-width: 200px !important;  }
+    .desktop-width-250px         {  width: 250px !important;  }                     .desktop-min-width-250px  {  min-width: 250px !important;  }                        .desktop-max-width-250px  {  max-width: 250px !important;  }
+    .desktop-width-300px         {  width: 300px !important;  }                     .desktop-min-width-300px  {  min-width: 300px !important;  }                        .desktop-max-width-300px  {  max-width: 300px !important;  }
+    .desktop-width-300px         {  width: 350px !important;  }                     .desktop-min-width-350px  {  min-width: 350px !important;  }                        .desktop-max-width-350px  {  max-width: 350px !important;  }
+    .desktop-width-400px         {  width: 400px !important;  }                     .desktop-min-width-400px  {  min-width: 400px !important;  }                        .desktop-max-width-400px  {  max-width: 400px !important;  }
+    .desktop-width-500px         {  width: 500px !important;  }                     .desktop-min-width-500px  {  min-width: 500px !important;  }                        .desktop-max-width-500px  {  max-width: 500px !important;  }
+    .desktop-width-600px         {  width: 600px !important;  }                     .desktop-min-width-600px  {  min-width: 600px !important;  }                        .desktop-max-width-600px  {  max-width: 600px !important;  }
+    .desktop-width-700px         {  width: 700px !important;  }                     .desktop-min-width-700px  {  min-width: 700px !important;  }                        .desktop-max-width-700px  {  max-width: 700px !important;  }
+    .desktop-width-800px         {  width: 800px !important;  }                     .desktop-min-width-800px  {  min-width: 800px !important;  }                        .desktop-max-width-800px  {  max-width: 800px !important;  }
+    .desktop-width-900px         {  width: 900px !important;  }                     .desktop-min-width-900px  {  min-width: 900px !important;  }                        .desktop-max-width-900px  {  max-width: 900px !important;  }
+
+
+
+
+
+/*
+    Sizing
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+    /* Size Pixels                                                                Size Pixels (Minimum)                                                                  Size Pixels (Maximum)
+    ----------------------------------------------------                         ---------------------------------------------------------------                        -----------------------------------------------------------------------  */
+    .desktop-size-24            { width: 24px !important; height: 24px !important; }                            .desktop-min-size-24     { width: 24px !important; height: 24px !important; }                                        .desktop-max-size-24     { max-width: 24px !important; max-height: 24px !important; }
+    .desktop-size-36            { width: 36px !important; height: 36px !important; }                            .desktop-min-size-36     { width: 36px !important; height: 36px !important; }                                        .desktop-max-size-36     { max-width: 36px !important; max-height: 36px !important; }
+    .desktop-size-48            { width: 48px !important; height: 48px !important; }                            .desktop-min-size-48     { width: 48px !important; height: 48px !important; }                                        .desktop-max-size-48     { max-width: 48px !important; max-height: 48px !important; }
+    .desktop-size-64            { width: 64px !important; height: 64px !important; }                            .desktop-min-size-64     { width: 64px !important; height: 64px !important; }                                        .desktop-max-size-64     { max-width: 64px !important; max-height: 64px !important; }
+    .desktop-size-72            { width: 72px !important; height: 72px !important; }                            .desktop-min-size-72     { width: 72px !important; height: 72px !important; }                                        .desktop-max-size-72     { max-width: 72px !important; max-height: 72px !important; }
+    .desktop-size-84            { width: 84px !important; height: 84px !important; }                            .desktop-min-size-84     { width: 84px !important; height: 84px !important; }                                        .desktop-max-size-84     { max-width: 84px !important; max-height: 84px !important; }
+    .desktop-size-96            { width: 96px !important; height: 96px !important; }                            .desktop-min-size-96     { width: 96px !important; height: 96px !important; }                                        .desktop-max-size-96     { max-width: 96px !important; max-height: 96px !important; }
+    .desktop-size-112           { width: 112px !important; height: 112px !important; }                          .desktop-min-size-112    { width: 112px !important; height: 112px !important; }                                      .desktop-max-size-112    { max-width: 112px !important; max-height: 112px !important; }
+    .desktop-size-150           { width: 150px !important; height: 150px !important; }                          .desktop-min-size-150    { width: 150px !important; height: 150px !important; }                                      .desktop-max-size-150    { max-width: 150px !important; max-height: 150px !important; }
+    .desktop-size-200           { width: 200px !important; height: 200px !important; }                          .desktop-min-size-200    { width: 200px !important; height: 200px !important; }                                      .desktop-max-size-200    { max-width: 200px !important; max-height: 200px !important; }
+    .desktop-size-250           { width: 250px !important; height: 250px !important; }                          .desktop-min-size-250    { width: 250px !important; height: 250px !important; }                                      .desktop-max-size-250    { max-width: 250px !important; max-height: 250px !important; }
+    .desktop-size-300           { width: 300px !important; height: 300px !important; }                          .desktop-min-size-300    { width: 300px !important; height: 300px !important; }                                      .desktop-max-size-300    { max-width: 300px !important; max-height: 300px !important; }
+    .desktop-size-350           { width: 350px !important; height: 350px !important; }                          .desktop-min-size-350    { width: 350px !important; height: 350px !important; }                                      .desktop-max-size-350    { max-width: 350px !important; max-height: 350px !important; }
+
+
+    /* Size View                                                                  Size View (Minimum)                                                                   Size View (Maximum)
+    -------------------------------------------------------------                ---------------------------------------------------------------                       -----------------------------------------------------------------------  */
+    .desktop-size-10v           {  width: 10vw !important;     height: 10vh !important;    }                    .desktop-min-size-10v    {  min-width: 10vw !important;     min-height: 10vh !important;    }                        .desktop-max-size-10v    {  max-width: 10vw !important;     max-height: 10vh !important;    }
+    .desktop-size-20v           {  width: 20vw !important;     height: 20vh !important;    }                    .desktop-min-size-20v    {  min-width: 20vw !important;     min-height: 20vh !important;    }                        .desktop-max-size-20v    {  max-width: 20vw !important;     max-height: 20vh !important;    }
+    .desktop-size-25v           {  width: 25vw !important;     height: 25vh !important;    }                    .desktop-min-size-25v    {  min-width: 25vw !important;     min-height: 25vh !important;    }                        .desktop-max-size-25v    {  max-width: 25vw !important;     max-height: 25vh !important;    }
+    .desktop-size-30v           {  width: 30vw !important;     height: 30vh !important;    }                    .desktop-min-size-30v    {  min-width: 30vw !important;     min-height: 30vh !important;    }                        .desktop-max-size-30v    {  max-width: 30vw !important;     max-height: 30vh !important;    }
+    .desktop-size-33v           {  width: 33.33vw !important;  height: 33.33vh !important; }                    .desktop-min-size-33v    {  min-width: 33.33vw !important;  min-height: 33.33vh !important; }                        .desktop-max-size-33v    {  max-width: 33.33vw !important;  max-height: 33.33vh !important; }
+    .desktop-size-40v           {  width: 40vw !important;     height: 40vh !important;    }                    .desktop-min-size-40v    {  min-width: 40vw !important;     min-height: 40vh !important;    }                        .desktop-max-size-40v    {  max-width: 40vw !important;     max-height: 40vh !important;    }
+    .desktop-size-50v           {  width: 50vw !important;     height: 50vh !important;    }                    .desktop-min-size-50v    {  min-width: 50vw !important;     min-height: 50vh !important;    }                        .desktop-max-size-50v    {  max-width: 50vw !important;     max-height: 50vh !important;    }
+    .desktop-size-60v           {  width: 60vw !important;     height: 60vh !important;    }                    .desktop-min-size-60v    {  min-width: 60vw !important;     min-height: 60vh !important;    }                        .desktop-max-size-60v    {  max-width: 60vw !important;     max-height: 60vh !important;    }
+    .desktop-size-66v           {  width: 66.66vw !important;  height: 66.h6vw !important; }                    .desktop-min-size-66v    {  min-width: 66.66vw !important;  min-height: 66.h6vw !important; }                        .desktop-max-size-66v    {  max-width: 66.66vw !important;  max-height: 66.h6vw !important; }
+    .desktop-size-70v           {  width: 70vw !important;     height: 70vh !important;    }                    .desktop-min-size-70v    {  min-width: 70vw !important;     min-height: 70vh !important;    }                        .desktop-max-size-70v    {  max-width: 70vw !important;     max-height: 70vh !important;    }
+    .desktop-size-75v           {  width: 75vw !important;     height: 75vh !important;    }                    .desktop-min-size-75v    {  min-width: 75vw !important;     min-height: 75vh !important;    }                        .desktop-max-size-75v    {  max-width: 75vw !important;     max-height: 75vh !important;    }
+    .desktop-size-80v           {  width: 80vw !important;     height: 80vh !important;    }                    .desktop-min-size-80v    {  min-width: 80vw !important;     min-height: 80vh !important;    }                        .desktop-max-size-80v    {  max-width: 80vw !important;     max-height: 80vh !important;    }
+    .desktop-size-90v           {  width: 90vw !important;     height: 90vh !important;    }                    .desktop-min-size-90v    {  min-width: 90vw !important;     min-height: 90vh !important;    }                        .desktop-max-size-90v    {  max-width: 90vw !important;     max-height: 90vh !important;    }
+    .desktop-size-100v          {  width: 100vw !important;    height: 100vh !important;   }                    .desktop-min-size-100v   {  min-width: 100vw !important;    min-height: 100vh !important;   }                        .desktop-max-size-100v   {  max-width: 100vw !important;    max-height: 100vh !important;   }
+    .desktop-size-125v          {  width: 125vw !important;    height: 125vh !important;   }                    .desktop-min-size-125v   {  min-width: 125vw !important;    min-height: 125vh !important;   }                        .desktop-max-size-125v   {  max-width: 125vw !important;    max-height: 125vh !important;   }
+    .desktop-size-150v          {  width: 150vw !important;    height: 150vh !important;   }                    .desktop-min-size-150v   {  min-width: 150vw !important;    min-height: 150vh !important;   }                        .desktop-max-size-150v   {  max-width: 150vw !important;    max-height: 150vh !important;   }
+    .desktop-size-200v          {  width: 200vw !important;    height: 200vh !important;   }                    .desktop-min-size-200v   {  min-width: 200vw !important;    min-height: 200vh !important;   }                        .desktop-max-size-200v  {  max-width: 200vw !important;    max-height: 200vh !important;   }
+
+
+
+
+/*
+    Margin
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+    /* Margin (rem)
+    -------------------------------------------------- */
+    .desktop-margin-0         {  margin: 0 !important;       }
+    .desktop-margin-25        {  margin: .25rem !important;  }
+    .desktop-margin-5         {  margin: .5rem !important;   }
+    .desktop-margin-75        {  margin: .75rem !important;  }
+    .desktop-margin-1         {  margin: 1rem !important;    }
+    .desktop-margin-125       {  margin: 1.25rem !important; }
+    .desktop-margin-15        {  margin: 1.5rem !important;  }
+    .desktop-margin-175       {  margin: 1.75rem !important; }
+    .desktop-margin-2         {  margin: 2rem !important;    }
+    .desktop-margin-225       {  margin: 2.25rem !important; }
+    .desktop-margin-25        {  margin: 2.5rem !important;  }
+    .desktop-margin-275       {  margin: 2.75rem !important; }
+    .desktop-margin-3         {  margin: 3rem !important;    }
+
+
+    /* Margin (rem) X Axis                                        Margin (rem) Y Axis
+    ----------------------------------------------------         ------------------------------------------------------ */
+    .desktop-margin-x-25        {  margin: 0 .25rem !important;  }                   .desktop-margin-y-25        {  margin: .25rem 0 !important;  }
+    .desktop-margin-x-5         {  margin: 0 .5rem !important;   }                   .desktop-margin-y-5         {  margin: .5rem 0 !important;   }
+    .desktop-margin-x-75        {  margin: 0 .75rem !important;  }                   .desktop-margin-y-75        {  margin: .75rem 0 !important;  }
+    .desktop-margin-x-1         {  margin: 0 1rem !important;    }                   .desktop-margin-y-1         {  margin: 1rem 0 !important;    }
+    .desktop-margin-x-125       {  margin: 0 1.25rem !important; }                   .desktop-margin-y-125       {  margin: 1.25rem 0 !important; }
+    .desktop-margin-x-15        {  margin: 0 1.5rem !important;  }                   .desktop-margin-y-15        {  margin: 1.5rem 0 !important;  }
+    .desktop-margin-x-175       {  margin: 0 1.75rem !important; }                   .desktop-margin-y-175       {  margin: 1.75rem 0 !important; }
+    .desktop-margin-x-2         {  margin: 0 2rem !important;    }                   .desktop-margin-y-2         {  margin: 2rem 0 !important;    }
+    .desktop-margin-x-225       {  margin: 0 2.25rem !important; }                   .desktop-margin-y-225       {  margin: 2.25rem 0 !important; }
+    .desktop-margin-x-25        {  margin: 0 2.5rem !important;  }                   .desktop-margin-y-25        {  margin: 2.5rem 0 !important;  }
+    .desktop-margin-x-275       {  margin: 0 2.75rem !important; }                   .desktop-margin-y-275       {  margin: 2.75rem 0 !important; }
+    .desktop-margin-x-3         {  margin: 0 3rem !important;    }                   .desktop-margin-y-3         {  margin: 3rem 0 !important;    }
+
+
+    /* Margin (rem) Top                                           Margin (rem) Right                                            Margin (rem) Bottom                                           Margin (rem) Left
+    ----------------------------------------------------         ------------------------------------------------------        ---------------------------------------------------------     ------------------------------------------------------ */
+    .desktop-margin-t-25      {  margin-top: .25rem !important;  }                   .desktop-margin-r-25     {  margin-right: .25rem !important;  }                  .desktop-margin-b-25     {  margin-bottom: .25rem !important;  }                 .desktop-margin-l-25     {  margin-left: .25rem !important;  }
+    .desktop-margin-t-5       {  margin-top: .5rem !important;   }                   .desktop-margin-r-5      {  margin-right: .5rem !important;   }                  .desktop-margin-b-5      {  margin-bottom: .5rem !important;   }                 .desktop-margin-l-5      {  margin-left: .5rem !important;   }
+    .desktop-margin-t-75      {  margin-top: .75rem !important;  }                   .desktop-margin-r-75     {  margin-right: .75rem !important;  }                  .desktop-margin-b-75     {  margin-bottom: .75rem !important;  }                 .desktop-margin-l-75     {  margin-left: .75rem !important;  }
+    .desktop-margin-t-1       {  margin-top: 1rem !important;    }                   .desktop-margin-r-1      {  margin-right: 1rem !important;    }                  .desktop-margin-b-1      {  margin-bottom: 1rem !important;    }                 .desktop-margin-l-1      {  margin-left: 1rem !important;    }
+    .desktop-margin-t-125     {  margin-top: 1.25rem !important; }                   .desktop-margin-r-125    {  margin-right: 1.25rem !important; }                  .desktop-margin-b-125    {  margin-bottom: 1.25rem !important; }                 .desktop-margin-l-125    {  margin-left: 1.25rem !important; }
+    .desktop-margin-t-15      {  margin-top: 1.5rem !important;  }                   .desktop-margin-r-15     {  margin-right: 1.5rem !important;  }                  .desktop-margin-b-15     {  margin-bottom: 1.5rem !important;  }                 .desktop-margin-l-15     {  margin-left: 1.5rem !important;  }
+    .desktop-margin-t-175     {  margin-top: 1.75rem !important; }                   .desktop-margin-r-175    {  margin-right: 1.75rem !important; }                  .desktop-margin-b-175    {  margin-bottom: 1.75rem !important; }                 .desktop-margin-l-175    {  margin-left: 1.75rem !important; }
+    .desktop-margin-t-2       {  margin-top: 2rem !important;    }                   .desktop-margin-r-2      {  margin-right: 2rem !important;    }                  .desktop-margin-b-2      {  margin-bottom: 2rem !important;    }                 .desktop-margin-l-2      {  margin-left: 2rem !important;    }
+    .desktop-margin-t-225     {  margin-top: 2.25rem !important; }                   .desktop-margin-r-225    {  margin-right: 2.25rem !important; }                  .desktop-margin-b-225    {  margin-bottom: 2.25rem !important; }                 .desktop-margin-l-225    {  margin-left: 2.25rem !important; }
+    .desktop-margin-t-25      {  margin-top: 2.5rem !important;  }                   .desktop-margin-r-25     {  margin-right: 2.5rem !important;  }                  .desktop-margin-b-25     {  margin-bottom: 2.5rem !important;  }                 .desktop-margin-l-25     {  margin-left: 2.5rem !important;  }
+    .desktop-margin-t-275     {  margin-top: 2.75rem !important; }                   .desktop-margin-r-275    {  margin-right: 2.75rem !important; }                  .desktop-margin-b-275    {  margin-bottom: 2.75rem !important; }                 .desktop-margin-l-275    {  margin-left: 2.75rem !important; }
+    .desktop-margin-t-3       {  margin-top: 3rem !important;    }                   .desktop-margin-r-3      {  margin-right: 3rem !important;    }                  .desktop-margin-b-3      {  margin-bottom: 3rem !important;    }                 .desktop-margin-l-3      {  margin-left: 3rem !important;    }
+
+
+
+    /* Margin (page)
+    -------------------------------------------------- */
+    .desktop-margin-10v            {  margin: 10vh 10vw !important;  }
+    .desktop-margin-20v            {  margin: 20vh 20vw !important;  }
+    .desktop-margin-25v            {  margin: 25vh 25vw !important;  }
+    .desktop-margin-30v            {  margin: 30vh 30vw !important;  }
+    .desktop-margin-33v            {  margin: 33.33vh 33.33vw !important; }
+    .desktop-margin-40v            {  margin: 40vh 40vw !important;  }
+    .desktop-margin-50v            {  margin: 50vh 50vw !important;  }
+    .desktop-margin-60v            {  margin: 60vh 60vw !important;  }
+    .desktop-margin-66v            {  margin: 66.66vh 66.66vw !important; }
+    .desktop-margin-70v            {  margin: 70vh 70vw !important;  }
+    .desktop-margin-75v            {  margin: 75vh 75vw !important;  }
+    .desktop-margin-80v            {  margin: 80vh 80vw !important;  }
+    .desktop-margin-90v            {  margin: 90vh 90vw !important;  }
+    .desktop-margin-100v           {  margin: 100vh 100vw !important;  }
+    .desktop-margin-125v           {  margin: 125vh 125vw !important;  }
+    .desktop-margin-150v           {  margin: 150vh 150vw !important;  }
+    .desktop-margin-200v           {  margin: 200vh 200vw !important;  }
+
+
+    /* Margin (page) X Axis                                       Margin (page) Y Axis
+    ----------------------------------------------------         ------------------------------------------------------ */
+    .desktop-margin-x-10v          {  margin: 0 10vw !important;    }                .desktop-margin-y-10v          {  margin: 10vh 0 !important;    }
+    .desktop-margin-x-20v          {  margin: 0 20vw !important;    }                .desktop-margin-y-20v          {  margin: 20vh 0 !important;    }
+    .desktop-margin-x-25v          {  margin: 0 25vw !important;    }                .desktop-margin-y-25v          {  margin: 25vh 0 !important;    }
+    .desktop-margin-x-30v          {  margin: 0 30vw !important;    }                .desktop-margin-y-30v          {  margin: 30vw 0 !important;    }
+    .desktop-margin-x-33v          {  margin: 0 33.33vw !important; }                .desktop-margin-y-33v          {  margin: 33.33vh 0 !important; }
+    .desktop-margin-x-40v          {  margin: 0 40vw !important;    }                .desktop-margin-y-40v          {  margin: 40vh 0 !important;    }
+    .desktop-margin-x-50v          {  margin: 0 50vw !important;    }                .desktop-margin-y-50v          {  margin: 50vh 0 !important;    }
+    .desktop-margin-x-60v          {  margin: 0 60vw !important;    }                .desktop-margin-y-60v          {  margin: 60vh 0 !important;    }
+    .desktop-margin-x-66v          {  margin: 0 66.66vw !important; }                .desktop-margin-y-66v          {  margin: 66.66vh 0 !important; }
+    .desktop-margin-x-70v          {  margin: 0 70vw !important;    }                .desktop-margin-y-70v          {  margin: 70vh 0 !important;    }
+    .desktop-margin-x-75v          {  margin: 0 75vw !important;    }                .desktop-margin-y-75v          {  margin: 75vh 0 !important;    }
+    .desktop-margin-x-80v          {  margin: 0 80vw !important;    }                .desktop-margin-y-80v          {  margin: 80vh 0 !important;    }
+    .desktop-margin-x-90v          {  margin: 0 90vw !important;    }                .desktop-margin-y-90v          {  margin: 90vh 0 !important;    }
+    .desktop-margin-x-100v         {  margin: 0 100vw !important;   }                .desktop-margin-y-100v         {  margin: 100vh 0 !important;   }
+    .desktop-margin-x-125v         {  margin: 0 125vw !important;   }                .desktop-margin-y-125v         {  margin: 120vh 0 !important;   }
+    .desktop-margin-x-150v         {  margin: 0 150vw !important;   }                .desktop-margin-y-150v         {  margin: 150vh 0 !important;   }
+    .desktop-margin-x-200v         {  margin: 0 200vw !important;   }                .desktop-margin-y-200v         {  margin: 200vh 0 !important;   }
+
+
+    /* Margin (page) Top                                          Margin (page) Right                                           Margin (page) Bottom                                             Margin (page) Left
+    ----------------------------------------------------         ------------------------------------------------------        ---------------------------------------------------------        ------------------------------------------------------ */
+    .desktop-margin-t-10v          {  margin-top: 10vh !important;  }                .desktop-margin-r-10v            {  margin-right: 10vw !important;  }             .desktop-margin-b-10v            {  margin-bottom: 10vh !important;  }            .desktop-margin-l-10v            {  margin-left: 10vw !important; }
+    .desktop-margin-t-20v          {  margin-top: 20vh !important;  }                .desktop-margin-r-20v            {  margin-right: 20vw !important;  }             .desktop-margin-b-20v            {  margin-bottom: 20vh !important;  }            .desktop-margin-l-20v            {  margin-left: 20vw !important; }
+    .desktop-margin-t-25v          {  margin-top: 25vh !important;  }                .desktop-margin-r-25v            {  margin-right: 25vw !important;  }             .desktop-margin-b-25v            {  margin-bottom: 25vh !important;  }            .desktop-margin-l-25v            {  margin-left: 25vw !important; }
+    .desktop-margin-t-30v          {  margin-top: 30vh !important;  }                .desktop-margin-r-30v            {  margin-right: 30vw !important;  }             .desktop-margin-b-30v            {  margin-bottom: 30vh !important;  }            .desktop-margin-l-30v            {  margin-left: 30vw !important; }
+    .desktop-margin-t-33v          {  margin-top: 33.33vh !important; }              .desktop-margin-r-33v            {  margin-right: 33.33vw !important; }           .desktop-margin-b-33v            {  margin-bottom: 33.33vh !important; }          .desktop-margin-l-33v            {  margin-left: 33.33vw !important; }
+    .desktop-margin-t-40v          {  margin-top: 40vh !important;  }                .desktop-margin-r-40v            {  margin-right: 40vw !important;  }             .desktop-margin-b-40v            {  margin-bottom: 40vh !important;  }            .desktop-margin-l-40v            {  margin-left: 40vw !important; }
+    .desktop-margin-t-50v          {  margin-top: 50vh !important;  }                .desktop-margin-r-50v            {  margin-right: 50vw !important;  }             .desktop-margin-b-50v            {  margin-bottom: 50vh !important;  }            .desktop-margin-l-50v            {  margin-left: 50vw !important; }
+    .desktop-margin-t-60v          {  margin-top: 60vh !important;  }                .desktop-margin-r-60v            {  margin-right: 60vw !important;  }             .desktop-margin-b-60v            {  margin-bottom: 60vh !important;  }            .desktop-margin-l-60v            {  margin-left: 60vw !important; }
+    .desktop-margin-t-66v          {  margin-top: 66.66vh !important; }              .desktop-margin-r-66v            {  margin-right: 66.66vw !important; }           .desktop-margin-b-66v            {  margin-bottom: 66.66vh !important; }          .desktop-margin-l-66v            {  margin-left: 66.66vw !important; }
+    .desktop-margin-t-70v          {  margin-top: 70vh !important;  }                .desktop-margin-r-70v            {  margin-right: 70vw !important;  }             .desktop-margin-b-70v            {  margin-bottom: 70vh !important;  }            .desktop-margin-l-70v            {  margin-left: 70vw !important; }
+    .desktop-margin-t-75v          {  margin-top: 75vh !important;  }                .desktop-margin-r-75v            {  margin-right: 75vw !important;  }             .desktop-margin-b-75v            {  margin-bottom: 75vh !important;  }            .desktop-margin-l-75v            {  margin-left: 75vw !important; }
+    .desktop-margin-t-80v          {  margin-top: 80vh !important;  }                .desktop-margin-r-80v            {  margin-right: 80vw !important;  }             .desktop-margin-b-80v            {  margin-bottom: 80vh !important;  }            .desktop-margin-l-80v            {  margin-left: 80vw !important; }
+    .desktop-margin-t-90v          {  margin-top: 90vh !important;  }                .desktop-margin-r-90v            {  margin-right: 90vw !important;  }             .desktop-margin-b-90v            {  margin-bottom: 90vh !important;  }            .desktop-margin-l-90v            {  margin-left: 90vw !important; }
+    .desktop-margin-t-100v         {  margin-top: 100vh !important;  }               .desktop-margin-r-100v           {  margin-right: 100vw !important;  }            .desktop-margin-b-100v           {  margin-bottom: 100vh !important;  }           .desktop-margin-l-100v           {  margin-left: 100vw !important; }
+    .desktop-margin-t-125v         {  margin-top: 125vh !important;  }               .desktop-margin-r-125v           {  margin-right: 125vw !important;  }            .desktop-margin-b-125v           {  margin-bottom: 125vh !important;  }           .desktop-margin-l-125v           {  margin-left: 125vw !important; }
+    .desktop-margin-t-150v         {  margin-top: 150vh !important;  }               .desktop-margin-r-150v           {  margin-right: 150vw !important;  }            .desktop-margin-b-150v           {  margin-bottom: 150vh !important;  }           .desktop-margin-l-150v           {  margin-left: 150vw !important; }
+    .desktop-margin-t-200v         {  margin-top: 200vh !important;  }               .desktop-margin-r-200v           {  margin-right: 200vw !important;  }            .desktop-margin-b-200v           {  margin-bottom: 200vh !important;  }           .desktop-margin-l-200v           {  margin-left: 200vw !important; }
+
+
+
+/*
+    Padding
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+    /* Padding (rem)
+    -------------------------------------------------- */
+    .desktop-padding-0         {  padding: 0 !important;       }
+    .desktop-padding-25        {  padding: .25rem !important;  }
+    .desktop-padding-5         {  padding: .5rem !important;   }
+    .desktop-padding-75        {  padding: .75rem !important;  }
+    .desktop-padding-1         {  padding: 1rem !important;    }
+    .desktop-padding-125       {  padding: 1.25rem !important; }
+    .desktop-padding-15        {  padding: 1.5rem !important;  }
+    .desktop-padding-175       {  padding: 1.75rem !important; }
+    .desktop-padding-2         {  padding: 2rem !important;    }
+    .desktop-padding-225       {  padding: 2.25rem !important; }
+    .desktop-padding-25        {  padding: 2.5rem !important;  }
+    .desktop-padding-275       {  padding: 2.75rem !important; }
+    .desktop-padding-3         {  padding: 3rem !important;    }
+
+
+    /* Padding (rem) X Axis                                        Padding (rem) Y Axis
+    ----------------------------------------------------         ------------------------------------------------------ */
+    .desktop-padding-x-25        {  padding: 0 .25rem !important;  }                   .desktop-padding-y-25        {  padding: .25rem 0 !important;  }
+    .desktop-padding-x-5         {  padding: 0 .5rem !important;   }                   .desktop-padding-y-5         {  padding: .5rem 0 !important;   }
+    .desktop-padding-x-75        {  padding: 0 .75rem !important;  }                   .desktop-padding-y-75        {  padding: .75rem 0 !important;  }
+    .desktop-padding-x-1         {  padding: 0 1rem !important;    }                   .desktop-padding-y-1         {  padding: 1rem 0 !important;    }
+    .desktop-padding-x-125       {  padding: 0 1.25rem !important; }                   .desktop-padding-y-125       {  padding: 1.25rem 0 !important; }
+    .desktop-padding-x-15        {  padding: 0 1.5rem !important;  }                   .desktop-padding-y-15        {  padding: 1.5rem 0 !important;  }
+    .desktop-padding-x-175       {  padding: 0 1.75rem !important; }                   .desktop-padding-y-175       {  padding: 1.75rem 0 !important; }
+    .desktop-padding-x-2         {  padding: 0 2rem !important;    }                   .desktop-padding-y-2         {  padding: 2rem 0 !important;    }
+    .desktop-padding-x-225       {  padding: 0 2.25rem !important; }                   .desktop-padding-y-225       {  padding: 2.25rem 0 !important; }
+    .desktop-padding-x-25        {  padding: 0 2.5rem !important;  }                   .desktop-padding-y-25        {  padding: 2.5rem 0 !important;  }
+    .desktop-padding-x-275       {  padding: 0 2.75rem !important; }                   .desktop-padding-y-275       {  padding: 2.75rem 0 !important; }
+    .desktop-padding-x-3         {  padding: 0 3rem !important;    }                   .desktop-padding-y-3         {  padding: 3rem 0 !important;    }
+
+
+    /* Padding (rem) Top                                           Padding (rem) Right                                            Padding (rem) Bottom                                           Padding (rem) Left
+    ----------------------------------------------------         ------------------------------------------------------        ---------------------------------------------------------     ------------------------------------------------------ */
+    .desktop-padding-t-25      {  padding-top: .25rem !important;  }                   .desktop-padding-r-25     {  padding-right: .25rem !important;  }                  .desktop-padding-b-25     {  padding-bottom: .25rem !important;  }                 .desktop-padding-l-25     {  padding-left: .25rem !important;  }
+    .desktop-padding-t-5       {  padding-top: .5rem !important;   }                   .desktop-padding-r-5      {  padding-right: .5rem !important;   }                  .desktop-padding-b-5      {  padding-bottom: .5rem !important;   }                 .desktop-padding-l-5      {  padding-left: .5rem !important;   }
+    .desktop-padding-t-75      {  padding-top: .75rem !important;  }                   .desktop-padding-r-75     {  padding-right: .75rem !important;  }                  .desktop-padding-b-75     {  padding-bottom: .75rem !important;  }                 .desktop-padding-l-75     {  padding-left: .75rem !important;  }
+    .desktop-padding-t-1       {  padding-top: 1rem !important;    }                   .desktop-padding-r-1      {  padding-right: 1rem !important;    }                  .desktop-padding-b-1      {  padding-bottom: 1rem !important;    }                 .desktop-padding-l-1      {  padding-left: 1rem !important;    }
+    .desktop-padding-t-125     {  padding-top: 1.25rem !important; }                   .desktop-padding-r-125    {  padding-right: 1.25rem !important; }                  .desktop-padding-b-125    {  padding-bottom: 1.25rem !important; }                 .desktop-padding-l-125    {  padding-left: 1.25rem !important; }
+    .desktop-padding-t-15      {  padding-top: 1.5rem !important;  }                   .desktop-padding-r-15     {  padding-right: 1.5rem !important;  }                  .desktop-padding-b-15     {  padding-bottom: 1.5rem !important;  }                 .desktop-padding-l-15     {  padding-left: 1.5rem !important;  }
+    .desktop-padding-t-175     {  padding-top: 1.75rem !important; }                   .desktop-padding-r-175    {  padding-right: 1.75rem !important; }                  .desktop-padding-b-175    {  padding-bottom: 1.75rem !important; }                 .desktop-padding-l-175    {  padding-left: 1.75rem !important; }
+    .desktop-padding-t-2       {  padding-top: 2rem !important;    }                   .desktop-padding-r-2      {  padding-right: 2rem !important;    }                  .desktop-padding-b-2      {  padding-bottom: 2rem !important;    }                 .desktop-padding-l-2      {  padding-left: 2rem !important;    }
+    .desktop-padding-t-225     {  padding-top: 2.25rem !important; }                   .desktop-padding-r-225    {  padding-right: 2.25rem !important; }                  .desktop-padding-b-225    {  padding-bottom: 2.25rem !important; }                 .desktop-padding-l-225    {  padding-left: 2.25rem !important; }
+    .desktop-padding-t-25      {  padding-top: 2.5rem !important;  }                   .desktop-padding-r-25     {  padding-right: 2.5rem !important;  }                  .desktop-padding-b-25     {  padding-bottom: 2.5rem !important;  }                 .desktop-padding-l-25     {  padding-left: 2.5rem !important;  }
+    .desktop-padding-t-275     {  padding-top: 2.75rem !important; }                   .desktop-padding-r-275    {  padding-right: 2.75rem !important; }                  .desktop-padding-b-275    {  padding-bottom: 2.75rem !important; }                 .desktop-padding-l-275    {  padding-left: 2.75rem !important; }
+    .desktop-padding-t-3       {  padding-top: 3rem !important;    }                   .desktop-padding-r-3      {  padding-right: 3rem !important;    }                  .desktop-padding-b-3      {  padding-bottom: 3rem !important;    }                 .desktop-padding-l-3      {  padding-left: 3rem !important;    }
+
+
+
+    /* Padding (page)
+    -------------------------------------------------- */
+    .desktop-padding-10v            {  padding: 10vh 10vw !important;  }
+    .desktop-padding-20v            {  padding: 20vh 20vw !important;  }
+    .desktop-padding-25v            {  padding: 25vh 25vw !important;  }
+    .desktop-padding-30v            {  padding: 30vh 30vw !important;  }
+    .desktop-padding-33v            {  padding: 33.33vh 33.33vw !important; }
+    .desktop-padding-40v            {  padding: 40vh 40vw !important;  }
+    .desktop-padding-50v            {  padding: 50vh 50vw !important;  }
+    .desktop-padding-60v            {  padding: 60vh 60vw !important;  }
+    .desktop-padding-66v            {  padding: 66.66vh 66.66vw !important; }
+    .desktop-padding-70v            {  padding: 70vh 70vw !important;  }
+    .desktop-padding-75v            {  padding: 75vh 75vw !important;  }
+    .desktop-padding-80v            {  padding: 80vh 80vw !important;  }
+    .desktop-padding-90v            {  padding: 90vh 90vw !important;  }
+    .desktop-padding-100v           {  padding: 100vh 100vw !important;  }
+    .desktop-padding-125v           {  padding: 125vh 125vw !important;  }
+    .desktop-padding-150v           {  padding: 150vh 150vw !important;  }
+    .desktop-padding-200v           {  padding: 200vh 200vw !important;  }
+
+
+    /* Padding (page) X Axis                                        Padding (page) Y Axis
+    ----------------------------------------------------           ------------------------------------------------------ */
+    .desktop-padding-x-10v          {  padding: 0 10vw !important;    }                .desktop-padding-y-10v          {  padding: 10vh 0 !important;    }
+    .desktop-padding-x-20v          {  padding: 0 20vw !important;    }                .desktop-padding-y-20v          {  padding: 20vh 0 !important;    }
+    .desktop-padding-x-25v          {  padding: 0 25vw !important;    }                .desktop-padding-y-25v          {  padding: 25vh 0 !important;    }
+    .desktop-padding-x-30v          {  padding: 0 30vw !important;    }                .desktop-padding-y-30v          {  padding: 30vw 0 !important;    }
+    .desktop-padding-x-33v          {  padding: 0 33.33vw !important; }                .desktop-padding-y-33v          {  padding: 33.33vh 0 !important; }
+    .desktop-padding-x-40v          {  padding: 0 40vw !important;    }                .desktop-padding-y-40v          {  padding: 40vh 0 !important;    }
+    .desktop-padding-x-50v          {  padding: 0 50vw !important;    }                .desktop-padding-y-50v          {  padding: 50vh 0 !important;    }
+    .desktop-padding-x-60v          {  padding: 0 60vw !important;    }                .desktop-padding-y-60v          {  padding: 60vh 0 !important;    }
+    .desktop-padding-x-66v          {  padding: 0 66.66vw !important; }                .desktop-padding-y-66v          {  padding: 66.66vh 0 !important; }
+    .desktop-padding-x-70v          {  padding: 0 70vw !important;    }                .desktop-padding-y-70v          {  padding: 70vh 0 !important;    }
+    .desktop-padding-x-75v          {  padding: 0 75vw !important;    }                .desktop-padding-y-75v          {  padding: 75vh 0 !important;    }
+    .desktop-padding-x-80v          {  padding: 0 80vw !important;    }                .desktop-padding-y-80v          {  padding: 80vh 0 !important;    }
+    .desktop-padding-x-90v          {  padding: 0 90vw !important;    }                .desktop-padding-y-90v          {  padding: 90vh 0 !important;    }
+    .desktop-padding-x-100v         {  padding: 0 100vw !important;   }                .desktop-padding-y-100v         {  padding: 100vh 0 !important;   }
+    .desktop-padding-x-125v         {  padding: 0 125vw !important;   }                .desktop-padding-y-125v         {  padding: 120vh 0 !important;   }
+    .desktop-padding-x-150v         {  padding: 0 150vw !important;   }                .desktop-padding-y-150v         {  padding: 150vh 0 !important;   }
+    .desktop-padding-x-200v         {  padding: 0 200vw !important;   }                .desktop-padding-y-200v         {  padding: 200vh 0 !important;   }
+
+
+    /* Padding (page) Top                                           Padding (page) Right                                             Padding (page) Bottom                                            Padding (page) Left
+    ----------------------------------------------------           ------------------------------------------------------           ---------------------------------------------------------        ------------------------------------------------------ */
+    .desktop-padding-t-10v          {  padding-top: 10vh !important;  }                .desktop-padding-r-10v            {  padding-right: 10vw !important;  }             .desktop-padding-b-10v            {  padding-bottom: 10vh !important;  }            .desktop-padding-l-10v            {  padding-left: 10vw !important; }
+    .desktop-padding-t-20v          {  padding-top: 20vh !important;  }                .desktop-padding-r-20v            {  padding-right: 20vw !important;  }             .desktop-padding-b-20v            {  padding-bottom: 20vh !important;  }            .desktop-padding-l-20v            {  padding-left: 20vw !important; }
+    .desktop-padding-t-25v          {  padding-top: 25vh !important;  }                .desktop-padding-r-25v            {  padding-right: 25vw !important;  }             .desktop-padding-b-25v            {  padding-bottom: 25vh !important;  }            .desktop-padding-l-25v            {  padding-left: 25vw !important; }
+    .desktop-padding-t-30v          {  padding-top: 30vh !important;  }                .desktop-padding-r-30v            {  padding-right: 30vw !important;  }             .desktop-padding-b-30v            {  padding-bottom: 30vh !important;  }            .desktop-padding-l-30v            {  padding-left: 30vw !important; }
+    .desktop-padding-t-33v          {  padding-top: 33.33vh !important; }              .desktop-padding-r-33v            {  padding-right: 33.33vw !important; }           .desktop-padding-b-33v            {  padding-bottom: 33.33vh !important; }          .desktop-padding-l-33v            {  padding-left: 33.33vw !important; }
+    .desktop-padding-t-40v          {  padding-top: 40vh !important;  }                .desktop-padding-r-40v            {  padding-right: 40vw !important;  }             .desktop-padding-b-40v            {  padding-bottom: 40vh !important;  }            .desktop-padding-l-40v            {  padding-left: 40vw !important; }
+    .desktop-padding-t-50v          {  padding-top: 50vh !important;  }                .desktop-padding-r-50v            {  padding-right: 50vw !important;  }             .desktop-padding-b-50v            {  padding-bottom: 50vh !important;  }            .desktop-padding-l-50v            {  padding-left: 50vw !important; }
+    .desktop-padding-t-60v          {  padding-top: 60vh !important;  }                .desktop-padding-r-60v            {  padding-right: 60vw !important;  }             .desktop-padding-b-60v            {  padding-bottom: 60vh !important;  }            .desktop-padding-l-60v            {  padding-left: 60vw !important; }
+    .desktop-padding-t-66v          {  padding-top: 66.66vh !important; }              .desktop-padding-r-66v            {  padding-right: 66.66vw !important; }           .desktop-padding-b-66v            {  padding-bottom: 66.66vh !important; }          .desktop-padding-l-66v            {  padding-left: 66.66vw !important; }
+    .desktop-padding-t-70v          {  padding-top: 70vh !important;  }                .desktop-padding-r-70v            {  padding-right: 70vw !important;  }             .desktop-padding-b-70v            {  padding-bottom: 70vh !important;  }            .desktop-padding-l-70v            {  padding-left: 70vw !important; }
+    .desktop-padding-t-75v          {  padding-top: 75vh !important;  }                .desktop-padding-r-75v            {  padding-right: 75vw !important;  }             .desktop-padding-b-75v            {  padding-bottom: 75vh !important;  }            .desktop-padding-l-75v            {  padding-left: 75vw !important; }
+    .desktop-padding-t-80v          {  padding-top: 80vh !important;  }                .desktop-padding-r-80v            {  padding-right: 80vw !important;  }             .desktop-padding-b-80v            {  padding-bottom: 80vh !important;  }            .desktop-padding-l-80v            {  padding-left: 80vw !important; }
+    .desktop-padding-t-90v          {  padding-top: 90vh !important;  }                .desktop-padding-r-90v            {  padding-right: 90vw !important;  }             .desktop-padding-b-90v            {  padding-bottom: 90vh !important;  }            .desktop-padding-l-90v            {  padding-left: 90vw !important; }
+    .desktop-padding-t-100v         {  padding-top: 100vh !important;  }               .desktop-padding-r-100v           {  padding-right: 100vw !important;  }            .desktop-padding-b-100v           {  padding-bottom: 100vh !important;  }           .desktop-padding-l-100v           {  padding-left: 100vw !important; }
+    .desktop-padding-t-125v         {  padding-top: 125vh !important;  }               .desktop-padding-r-125v           {  padding-right: 125vw !important;  }            .desktop-padding-b-125v           {  padding-bottom: 125vh !important;  }           .desktop-padding-l-125v           {  padding-left: 125vw !important; }
+    .desktop-padding-t-150v         {  padding-top: 150vh !important;  }               .desktop-padding-r-150v           {  padding-right: 150vw !important;  }            .desktop-padding-b-150v           {  padding-bottom: 150vh !important;  }           .desktop-padding-l-150v           {  padding-left: 150vw !important; }
+    .desktop-padding-t-200v         {  padding-top: 200vh !important;  }               .desktop-padding-r-200v           {  padding-right: 200vw !important;  }            .desktop-padding-b-200v           {  padding-bottom: 200vh !important;  }           .desktop-padding-l-200v           {  padding-left: 200vw !important; }
+
+
+
+
+
+
+
+
+/*
+    COLORS
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+    /* Background */
+    .desktop-bg-clear                           { background: rgba(255,255,255, 0) !important; }
+    .desktop-bg-red                             { background: rgba(240,98,146,  1) !important; }
+    .desktop-bg-blue                            { background: rgba(100,181,246, 1) !important; }
+    .desktop-bg-purple                          { background: rgba(123,31,162,  1) !important; }
+    .desktop-bg-yellow                          { background: rgba(246,255,40,  1) !important; }
+    .desktop-bg-green                           { background: rgba(0,230,118,   1) !important; }
+    .desktop-bg-white                           { background: rgba(255,255,255, 1) !important; }
+    .desktop-bg-black                           { background: rgba(0,0,0,       1) !important; }
+    .desktop-bg-gray                            { background: rgba(70,70,70,    1) !important; }
+
+    /* Dark BG (MD Spec)*/
+    .desktop-bg-black.primary            { background: rgba(0,0,0, .87) !important; }
+    .desktop-bg-black.secondary          { background: rgba(0,0,0, .54) !important; }
+    .desktop-bg-black.disabled           { background: rgba(0,0,0, .38) !important; }
+    .desktop-bg-black.divider            { background: rgba(0,0,0, .12) !important; }
+
+    .desktop-bg-black.fade-1             { background: rgba(0,0,0, .12) !important; }
+    .desktop-bg-black.fade-2             { background: rgba(0,0,0, .22) !important; }
+    .desktop-bg-black.fade-3             { background: rgba(0,0,0, .32) !important; }
+    .desktop-bg-black.fade-4             { background: rgba(0,0,0, .42) !important; }
+    .desktop-bg-black.fade-5             { background: rgba(0,0,0, .54) !important; }
+    .desktop-bg-black.fade-6             { background: rgba(0,0,0, .62) !important; }
+    .desktop-bg-black.fade-7             { background: rgba(0,0,0, .72) !important; }
+    .desktop-bg-black.fade-8             { background: rgba(0,0,0, .78) !important; }
+    .desktop-bg-black.fade-9             { background: rgba(0,0,0, .87) !important; }
+
+    /* Light BG (MD Spec)*/
+    .desktop-bg-white.primary        { background: rgba(255,255,255,   1) !important; }
+    .desktop-bg-white.secondary      { background: rgba(255,255,255,  .7) !important; }
+    .desktop-bg-white.disabled       { background: rgba(255,255,255,  .5) !important; }
+    .desktop-bg-white.divider        { background: rgba(255,255,255, .12) !important; }
+
+    .desktop-bg-white.fade-1             { background: rgba(255,255,255, .12) !important; }
+    .desktop-bg-white.fade-2             { background: rgba(255,255,255, .22) !important; }
+    .desktop-bg-white.fade-3             { background: rgba(255,255,255, .32) !important; }
+    .desktop-bg-white.fade-4             { background: rgba(255,255,255, .42) !important; }
+    .desktop-bg-white.fade-5             { background: rgba(255,255,255, .54) !important; }
+    .desktop-bg-white.fade-6             { background: rgba(255,255,255, .62) !important; }
+    .desktop-bg-white.fade-7             { background: rgba(255,255,255, .72) !important; }
+    .desktop-bg-white.fade-8             { background: rgba(255,255,255, .78) !important; }
+    .desktop-bg-white.fade-9             { background: rgba(255,255,255, .87) !important; }
+
+
+    /* Text */
+    .desktop-black                     { color: rgba(0,0,0,       1) !important; }
+    .desktop-white                     { color: rgba(255,255,255, 1) !important; }
+    .desktop-clear                     { color: rgba(255,255,255, 0) !important; }
+    .desktop-red                       { color: rgba(240,98,146,  1) !important; }
+    .desktop-blue                      { color: rgba(100,181,246, 1) !important; }
+    .desktop-purple                    { color: rgba(123,31,162,  1) !important; }
+    .desktop-yellow                    { color: rgba(246,255,40,  1) !important; }
+    .desktop-green                     { color: rgba(0,230,118,   1) !important; }
+    .desktop-gray                      { color: rgba(70,70,70,    1) !important; }
+
+    /* Dark Text (MD Spec)*/
+    .desktop-black.primary     { color: rgba(0,0,0, .87) !important; }
+    .desktop-black.secondary   { color: rgba(0,0,0, .54) !important; }
+    .desktop-black.disabled    { color: rgba(0,0,0, .38) !important; }
+    .desktop-black.divider     { color: rgba(0,0,0, .12) !important; }
+
+
+    /* Light Text (MD Spec)*/
+    .desktop-white.primary     { color: rgba(255,255,255,   1) !important; }
+    .desktop-white.secondary   { color: rgba(255,255,255,  .7) !important; }
+    .desktop-white.disabled    { color: rgba(255,255,255,  .5) !important; }
+    .desktop-white.divider     { color: rgba(255,255,255, .12) !important; }
+
+
+/*
+    OPACITY
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+    /* Visibility */
+    .desktop-visible                   { opacity:   1 !important; }
+    .desktop-hidden                    { opacity:   0 !important; }
+
+    /* Opacity */
+    .desktop-opacity-1                  { opacity: .12 !important; }
+    .desktop-opacity-2                  { opacity: .22 !important; }
+    .desktop-opacity-3                  { opacity: .32 !important; }
+    .desktop-opacity-4                  { opacity: .42 !important; }
+    .desktop-opacity-5                  { opacity: .54 !important; }
+    .desktop-opacity-6                  { opacity: .62 !important; }
+    .desktop-opacity-7                  { opacity: .72 !important; }
+    .desktop-opacity-8                  { opacity: .78 !important; }
+    .desktop-opacity-9                  { opacity: .87 !important; }
+
+
+/*
+    STYLES
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+    .desktop-circle                      { border-radius: 100% !important; }
+
+    .desktop-circle-10                   { border-radius: 10% !important; }
+    .desktop-circle-20                   { border-radius: 20% !important; }
+    .desktop-circle-30                   { border-radius: 30% !important; }
+    .desktop-circle-40                   { border-radius: 40% !important; }
+    .desktop-circle-50                   { border-radius: 50% !important; }
+    .desktop-circle-60                   { border-radius: 60% !important; }
+    .desktop-circle-70                   { border-radius: 70% !important; }
+    .desktop-circle-80                   { border-radius: 80% !important; }
+    .desktop-circle-90                   { border-radius: 90% !important; }
+    .desktop-circle-100                  { border-radius: 100% !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

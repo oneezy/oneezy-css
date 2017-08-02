@@ -1,0 +1,39 @@
+/*
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Oneezy CSS
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+
+/*                                                                                            LOADS 1st */
+/* UNIVERSAL (All) -------------------------------------------------------------------------------------*/
+@import "oneezy-css/oneezy-grid.css";
+@import "oneezy-css/oneezy-positioning.css";
+@import "oneezy-css/oneezy-settings.css";
+@import "oneezy-css/oneezy-typography.css";
+/*
+LOADS 2nd */
+/* MOBILE ----------------------------------------------------------------------------------------------*/
+
+/* (0 to 768px) */
+@import "oneezy-css/device/mobile/oneezy-mobile-grid.css";
+@import "oneezy-css/device/mobile/oneezy-mobile-positioning.css";
+@import "oneezy-css/device/mobile/oneezy-mobile-settings.css";
+@import "oneezy-css/device/mobile/oneezy-mobile-typography.css";
+/*
+LOADS 3rd */
+/* TABLET ----------------------------------------------------------------------------------------------*/
+
+/* (768px to 1024px) */
+@import "oneezy-css/device/tablet/oneezy-tablet-grid.css";
+@import "oneezy-css/device/tablet/oneezy-tablet-positioning.css";
+@import "oneezy-css/device/tablet/oneezy-tablet-settings.css";
+@import "oneezy-css/device/tablet/oneezy-tablet-typography.css";
+/*
+LOADS 4th */
+/* DESKTOP ---------------------------------------------------------------------------------------------*/
+/* (1025px +) */
+@import "oneezy-css/device/desktop/oneezy-desktop-grid.css";
+@import "oneezy-css/device/desktop/oneezy-desktop-positioning.css";
+@import "oneezy-css/device/desktop/oneezy-desktop-settings.css";
+@import "oneezy-css/device/desktop/oneezy-desktop-typography.css";

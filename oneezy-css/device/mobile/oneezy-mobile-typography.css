@@ -1,0 +1,146 @@
+/* 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    TYPOGRAPHY (Mobile)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 0) and (max-width: 768px) {
+
+/* All Text
+----------------------------------*/
+    .mobile-display-1,
+    .mobile-display-2,
+    .mobile-display-3,
+    .mobile-display-4,
+    .mobile-headline,
+    .mobile-title,
+    .mobile-subhead,
+    .mobile-bold,
+    .mobile-normal,
+    .mobile-caption,
+    .mobile-menu,
+    .mobile-button,
+    .mobile-text-12,
+    .mobile-text-13,
+    .mobile-text-14,
+    .mobile-text-15,
+    .mobile-text-16,
+    .mobile-text-20,
+    .mobile-text-24,
+    .mobile-text-34,
+    .mobile-text-45,
+    .mobile-text-56,
+    .mobile-text-72,
+    .mobile-text-112      { font-family: 'Roboto', 'Noto', sans-serif !important; -webkit-font-smoothing: antialiased !important; }  /* OS X subpixel AA bleed bug */
+
+    .mobile-code1,
+    .mobile-code2         { font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace !important; -webkit-font-smoothing: antialiased !important; }  /* OS X subpixel AA bleed bug */
+
+    .mobile-display-1,
+    .mobile-display-2,
+    .mobile-display-3,
+    .mobile-display-4,
+    .mobile-headline,
+    .mobile-title,
+    .mobile-subhead,
+    .mobile-bold,
+    .mobile-normal,
+    .mobile-caption,
+    .mobile-menu,
+    .mobile-button,
+    .mobile-code1,
+    .mobile-code2,
+    .mobile-text-12,
+    .mobile-text-13,
+    .mobile-text-14,
+    .mobile-text-15,
+    .mobile-text-16,
+    .mobile-text-20,
+    .mobile-text-24,
+    .mobile-text-34,
+    .mobile-text-45,
+    .mobile-text-56,
+    .mobile-text-72,
+    .mobile-text-112        { text-rendering: optimizeLegibility !important; } /* Opt for better kerning for headers & other short labels. */
+
+    .mobile-display-1,
+    .mobile-display-2,
+    .mobile-display-3,
+    .mobile-display-4,
+    .mobile-title,
+    .mobile-caption,
+    .mobile-menu,
+    .mobile-button        { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; } /* Line wrapping only applies to Body, Subhead, Headline, and the smaller Display styles. All other styles should exist as single lines. */
+
+
+
+    /* Text Styles
+    ------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .mobile-display-1    { font-size:  34px !important;   font-weight: 400 !important;   letter-spacing: -.01em !important;    line-height: 40px !important;  }
+    .mobile-display-2    { font-size:  45px !important;   font-weight: 400 !important;   letter-spacing: -.018em !important;   line-height: 48px !important;  }
+    .mobile-display-3    { font-size:  56px !important;   font-weight: 400 !important;   letter-spacing: -.026em !important;   line-height: 60px !important;  }
+    .mobile-display-4    { font-size: 112px !important;   font-weight: 100 !important;   letter-spacing: -.044em !important;   line-height: 120px !important; }
+
+    .mobile-headline     { font-size:  24px !important;   font-weight: 400 !important;   letter-spacing: -.012em !important;   line-height: 32px !important; }
+    .mobile-title        { font-size:  20px !important;   font-weight: 500 !important;   line-height: 28px !important; }
+    .mobile-subhead      { font-size:  16px !important;   font-weight: 400 !important;   line-height: 24px !important; }
+    .mobile-bold         { font-size:  14px !important;   font-weight: 500 !important;   line-height: 24px !important; }
+    .mobile-normal       { font-size:  14px !important;   font-weight: 400 !important;   line-height: 20px !important; }
+    .mobile-caption      { font-size:  12px !important;   font-weight: 400 !important;   letter-spacing: 0.011em !important;   line-height: 20px !important; }
+
+    .mobile-menu         { font-size:  13px !important;   font-weight: 500 !important;   line-height: 24px !important; }
+    .mobile-button       { font-size:  14px !important;   font-weight: 500 !important;   letter-spacing: 0.018em !important;   line-height: 24px !important;  text-transform: uppercase !important; }
+    .mobile-code1        { font-size:  14px !important;   font-weight: 500 !important;   line-height: 20px !important; }
+    .mobile-code2        { font-size:  14px !important;   font-weight: 700 !important;   line-height: 20px !important; }
+
+
+
+    /* Font Size (number)
+    -------------------------------------------------------*/
+    .mobile-text-12           {  font-size:  12px !important;  }
+    .mobile-text-13           {  font-size:  13px !important;  }
+    .mobile-text-14           {  font-size:  14px !important;  }
+    .mobile-text-15           {  font-size:  15px !important;  }
+    .mobile-text-16           {  font-size:  16px !important;  }
+    .mobile-text-20           {  font-size:  20px !important;  }
+    .mobile-text-24           {  font-size:  24px !important;  }
+    .mobile-text-34           {  font-size:  34px !important;  }
+    .mobile-text-45           {  font-size:  45px !important;  }
+    .mobile-text-56           {  font-size:  56px !important;  }
+    .mobile-text-72           {  font-size:  72px !important;  }
+    .mobile-text-112          {  font-size:  112px !important; }
+
+
+    /* Font Weight (number)                                              Font Weight (name)
+    -------------------------------------------------------             -------------------------------------------------------*/
+    .mobile-weight-1          {  font-weight: 100 !important;  }                          .mobile-text-thin         {  font-weight: 100 !important;  }
+    .mobile-weight-2          {  font-weight: 300 !important;  }                          .mobile-text-light        {  font-weight: 300 !important;  }
+    .mobile-weight-3          {  font-weight: 400 !important;  }                          .mobile-text-regular      {  font-weight: 400 !important;  }
+    .mobile-weight-4          {  font-weight: 500 !important;  }                          .mobile-text-medium       {  font-weight: 500 !important;  }
+    .mobile-weight-5          {  font-weight: 700 !important;  }                          .mobile-text-bold         {  font-weight: 700 !important;  }
+    .mobile-weight-6          {  font-weight: 900 !important;  }                          .mobile-text-black        {  font-weight: 900 !important;  }
+
+
+    /* Font Case
+    -------------------------------------------------------*/
+    .mobile-lowercase         {  text-transform: lowercase !important;  }
+    .mobile-uppercase         {  text-transform: uppercase !important;  }
+    .mobile-capitalize        {  text-transform: capitalize !important; }
+    .mobile-inherit           {  text-transform: inherit !important;    }
+
+
+    /* Font Styles
+    -------------------------------------------------------*/
+    .mobile-underline         {  text-decoration: underline !important; }
+    .mobile-overline          {  text-decoration: overline !important;  }
+
+
+    /* Alignment
+    -------------------------------------------------------*/
+    .mobile-text-left         {  text-align: left !important;     }
+    .mobile-text-right        {  text-align: right !important;    }
+    .mobile-text-center       {  text-align: center !important;   }
+    .mobile-text-justify      {  text-align: justify !important;  }
+    .mobile-text-inherit      {  text-align: inherit !important;  }
+}
+
+
