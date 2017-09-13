@@ -14,6 +14,12 @@
     .flex-inline                { display: -ms-inline-flexbox; display: -webkit-inline-flex; display: inline-flex; }
 
 
+    /* Flex Reverse
+    ------------------------------------------------*/
+    .flex-horizontal-reverse    { display: -ms-flexbox; -ms-flex-direction: row; display: -webkit-flex; -webkit-flex-direction: row-reverse; display: flex; flex-direction: row-reverse; }
+    .flex-vertical-reverse      { display: -ms-flexbox; -ms-flex-direction: column; display: -webkit-flex; -webkit-flex-direction: column-reverse; display: flex; flex-direction: column-reverse; }
+
+
     /* Wrapping
     ------------------------------------------------*/
     .wrap                       { -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
