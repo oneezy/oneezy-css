@@ -10,6 +10,12 @@
     .tablet-inline-block     { display: inline-block !important; }
     .tablet-block            { display: block !important; }
 
+    .print-only              { display: none !important; }
+    .mobile-only             { display: none !important; }
+    .desktop-only            { display: none !important; }
+
+    .device-only             { display: initial !important; }
+    .tablet-only             { display: initial !important; }
 
 /*
     Height

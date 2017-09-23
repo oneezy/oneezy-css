@@ -32,8 +32,15 @@ LOADS 3rd */
 /*
 LOADS 4th */
 /* DESKTOP ---------------------------------------------------------------------------------------------*/
+
 /* (1025px +) */
 @import "oneezy-css/device/desktop/oneezy-desktop-grid.css";
 @import "oneezy-css/device/desktop/oneezy-desktop-positioning.css";
 @import "oneezy-css/device/desktop/oneezy-desktop-settings.css";
 @import "oneezy-css/device/desktop/oneezy-desktop-typography.css";
+/*
+LOADS 5th */
+/* PRINT ---------------------------------------------------------------------------------------------*/
+
+/* (print) */
+@import "oneezy-css/device/print/oneezy-print-settings.css";
