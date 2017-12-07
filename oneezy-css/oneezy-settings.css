@@ -186,7 +186,7 @@
     .width-200px         {  width: 200px;  }                     .min-width-200px  {  min-width: 200px;  }                        .max-width-200px  {  max-width: 200px;  }
     .width-250px         {  width: 250px;  }                     .min-width-250px  {  min-width: 250px;  }                        .max-width-250px  {  max-width: 250px;  }
     .width-300px         {  width: 300px;  }                     .min-width-300px  {  min-width: 300px;  }                        .max-width-300px  {  max-width: 300px;  }
-    .width-300px         {  width: 350px;  }                     .min-width-350px  {  min-width: 350px;  }                        .max-width-350px  {  max-width: 350px;  }
+    .width-350px         {  width: 350px;  }                     .min-width-350px  {  min-width: 350px;  }                        .max-width-350px  {  max-width: 350px;  }
     .width-400px         {  width: 400px;  }                     .min-width-400px  {  min-width: 400px;  }                        .max-width-400px  {  max-width: 400px;  }
     .width-500px         {  width: 500px;  }                     .min-width-500px  {  min-width: 500px;  }                        .max-width-500px  {  max-width: 500px;  }
     .width-600px         {  width: 600px;  }                     .min-width-600px  {  min-width: 600px;  }                        .max-width-600px  {  max-width: 600px;  }
@@ -204,19 +204,20 @@
 
     /* Size Pixels                                                                Size Pixels (Minimum)                                                                  Size Pixels (Maximum)
     ----------------------------------------------------                         ---------------------------------------------------------------                        -----------------------------------------------------------------------  */
-    .size-24            { width: 24px; height: 24px; }                            .min-size-24     { width: 24px; height: 24px; }                                        .max-size-24     { max-width: 24px; max-height: 24px; }
-    .size-36            { width: 36px; height: 36px; }                            .min-size-36     { width: 36px; height: 36px; }                                        .max-size-36     { max-width: 36px; max-height: 36px; }
-    .size-48            { width: 48px; height: 48px; }                            .min-size-48     { width: 48px; height: 48px; }                                        .max-size-48     { max-width: 48px; max-height: 48px; }
-    .size-64            { width: 64px; height: 64px; }                            .min-size-64     { width: 64px; height: 64px; }                                        .max-size-64     { max-width: 64px; max-height: 64px; }
-    .size-72            { width: 72px; height: 72px; }                            .min-size-72     { width: 72px; height: 72px; }                                        .max-size-72     { max-width: 72px; max-height: 72px; }
-    .size-84            { width: 84px; height: 84px; }                            .min-size-84     { width: 84px; height: 84px; }                                        .max-size-84     { max-width: 84px; max-height: 84px; }
-    .size-96            { width: 96px; height: 96px; }                            .min-size-96     { width: 96px; height: 96px; }                                        .max-size-96     { max-width: 96px; max-height: 96px; }
-    .size-112           { width: 112px; height: 112px; }                          .min-size-112    { width: 112px; height: 112px; }                                      .max-size-112    { max-width: 112px; max-height: 112px; }
-    .size-150           { width: 150px; height: 150px; }                          .min-size-150    { width: 150px; height: 150px; }                                      .max-size-150    { max-width: 150px; max-height: 150px; }
-    .size-200           { width: 200px; height: 200px; }                          .min-size-200    { width: 200px; height: 200px; }                                      .max-size-200    { max-width: 200px; max-height: 200px; }
-    .size-250           { width: 250px; height: 250px; }                          .min-size-250    { width: 250px; height: 250px; }                                      .max-size-250    { max-width: 250px; max-height: 250px; }
-    .size-300           { width: 300px; height: 300px; }                          .min-size-300    { width: 300px; height: 300px; }                                      .max-size-300    { max-width: 300px; max-height: 300px; }
-    .size-350           { width: 350px; height: 350px; }                          .min-size-350    { width: 350px; height: 350px; }                                      .max-size-350    { max-width: 350px; max-height: 350px; }
+    .size-24px            { width: 24px; height: 24px; }                            .min-size-24px     { width: 24px; height: 24px; }                                        .max-size-24px     { max-width: 24px; max-height: 24px; }
+    .size-36px            { width: 36px; height: 36px; }                            .min-size-36px     { width: 36px; height: 36px; }                                        .max-size-36px     { max-width: 36px; max-height: 36px; }
+    .size-48px            { width: 48px; height: 48px; }                            .min-size-48px     { width: 48px; height: 48px; }                                        .max-size-48px     { max-width: 48px; max-height: 48px; }
+    .size-64px            { width: 64px; height: 64px; }                            .min-size-64px     { width: 64px; height: 64px; }                                        .max-size-64px     { max-width: 64px; max-height: 64px; }
+    .size-72px            { width: 72px; height: 72px; }                            .min-size-72px     { width: 72px; height: 72px; }                                        .max-size-72px     { max-width: 72px; max-height: 72px; }
+    .size-84px            { width: 84px; height: 84px; }                            .min-size-84px     { width: 84px; height: 84px; }                                        .max-size-84px     { max-width: 84px; max-height: 84px; }
+    .size-96px            { width: 96px; height: 96px; }                            .min-size-96px     { width: 96px; height: 96px; }                                        .max-size-96px     { max-width: 96px; max-height: 96px; }
+    .size-100px           { width: 100px; height: 100px; }                          .min-size-100px    { width: 100px; height: 100px; }                                      .max-size-100px    { max-width: 100px; max-height: 100px; }
+    .size-112px           { width: 112px; height: 112px; }                          .min-size-112px    { width: 112px; height: 112px; }                                      .max-size-112px    { max-width: 112px; max-height: 112px; }
+    .size-150px           { width: 150px; height: 150px; }                          .min-size-150px    { width: 150px; height: 150px; }                                      .max-size-150px    { max-width: 150px; max-height: 150px; }
+    .size-200px           { width: 200px; height: 200px; }                          .min-size-200px    { width: 200px; height: 200px; }                                      .max-size-200px    { max-width: 200px; max-height: 200px; }
+    .size-250px           { width: 250px; height: 250px; }                          .min-size-250px    { width: 250px; height: 250px; }                                      .max-size-250px    { max-width: 250px; max-height: 250px; }
+    .size-300px           { width: 300px; height: 300px; }                          .min-size-300px    { width: 300px; height: 300px; }                                      .max-size-300px    { max-width: 300px; max-height: 300px; }
+    .size-350px           { width: 350px; height: 350px; }                          .min-size-350px    { width: 350px; height: 350px; }                                      .max-size-350px    { max-width: 350px; max-height: 350px; }
 
 
     /* Size View                                                                  Size View (Minimum)                                                                   Size View (Maximum)
