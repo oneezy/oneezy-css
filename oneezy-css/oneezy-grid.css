@@ -20,6 +20,20 @@
     .flex-vertical-reverse      { display: -ms-flexbox; -ms-flex-direction: column; display: -webkit-flex; -webkit-flex-direction: column-reverse; display: flex; flex-direction: column-reverse; }
 
 
+    /* Flex IE Fix */
+    .flex-vertical,
+    .flex-vertical-reverse,
+    .flex-horizontal,
+    .flex-horizontal-reverse,
+    .flex-inline { min-height: 1px; min-width: 1px; }
+
+    .flex-vertical > *,
+    .flex-vertical-reverse > *,
+    .flex-vertical > *,
+    .flex-horizontal-reverse > *,
+    .flex-inline > * { min-height: 1px; min-width: 1px; }
+
+    
     /* Wrapping
     ------------------------------------------------*/
     .wrap                       { -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
