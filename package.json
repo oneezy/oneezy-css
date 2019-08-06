@@ -1,0 +1,19 @@
+{
+  "name": "oneezy-css",
+  "version": "1.0.0",
+  "description": "My CSS.",
+  "main": "oneezy-css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneezy/oneezy-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oneezy/oneezy-css/issues"
+  },
+  "homepage": "https://github.com/oneezy/oneezy-css#readme"
+}
