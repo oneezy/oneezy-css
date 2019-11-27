@@ -1,19 +1,42 @@
 {
   "name": "oneezy-css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My CSS.",
   "main": "oneezy-css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulpwatch": "gulp watch",
+    "gulpstyles": "gulp styles"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oneezy/oneezy-css.git"
   },
-  "author": "",
+  "author": "Justin O'Neill",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/oneezy/oneezy-css/issues"
   },
-  "homepage": "https://github.com/oneezy/oneezy-css#readme"
+  "homepage": "https://github.com/oneezy/oneezy-css#readme",
+  "devDependencies": {
+    "autoprefixer": "8.4.1",
+    "browser-sync": "2.24.4",
+    "css-loader": "^3.2.0",
+    "del": "^5.1.0",
+    "gulp": "3.9.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-postcss": "7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "postcss-color-function": "4.0.1",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-hexrgba": "1.0.1",
+    "postcss-import": "11.1.0",
+    "postcss-mixins": "6.2.0",
+    "postcss-nested": "3.0.0",
+    "postcss-simple-vars": "4.1.0",
+    "run-sequence": "^2.2.1",
+    "style-loader": "^1.0.0"
+  }
 }

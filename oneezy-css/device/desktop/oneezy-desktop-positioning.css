@@ -58,6 +58,4 @@
     .desktop-z-8     { z-index:  8 !important;  }             .desktop-z-800     { z-index:  800 !important;  }             .desktop-z-8000     { z-index:  8000 !important;  }
     .desktop-z-9     { z-index:  9 !important;  }             .desktop-z-900     { z-index:  900 !important;  }             .desktop-z-9000     { z-index:  9000 !important;  }
     .desktop-z-10    { z-index:  10 !important; }             .desktop-z-1000    { z-index: 1000 !important;  }             .desktop-z-10000    { z-index:  10000 !important; }
-
-
-
+}
