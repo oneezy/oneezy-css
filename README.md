@@ -1,4 +1,4 @@
-# ONEEZY CSS
+# ONEEZY CSS (deprecated)
 
 My CSS.
 
